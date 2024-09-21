@@ -1,1 +1,284 @@
-{"sections":{"image_banner_UW3pfy":{"type":"image-banner","blocks":{"heading_iWqLwW":{"type":"heading","settings":{"heading":"","heading_size":"h1"}},"buttons_q6DCmG":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"shopify:\/\/collections","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_iWqLwW","buttons_q6DCmG"],"settings":{"image":"shopify:\/\/shop_images\/homebanner.png","image_overlay_opacity":0,"image_height":"large","desktop_content_position":"top-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":false}},"image_banner_izBGpV":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/2ndheader.png","image_overlay_opacity":0,"image_height":"large","desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"image_banner_kJM9yG":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/all.png","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"image_banner_UYzMU9":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/allimge.png","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"collection_list_8mM9zr":{"type":"collection-list","blocks":{"featured_collection_4eRfHk":{"type":"featured_collection","settings":{"collection":"baby-skincare-essentials"}},"featured_collection_WktHwB":{"type":"featured_collection","settings":{"collection":"baby-comfort-relief"}},"featured_collection_Aj8z8d":{"type":"featured_collection","settings":{"collection":"cleansers"}}},"block_order":["featured_collection_4eRfHk","featured_collection_WktHwB","featured_collection_Aj8z8d"],"disabled":true,"settings":{"title":"Velura's Baby Care Collection","heading_size":"h1","image_ratio":"portrait","columns_desktop":3,"color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":16}},"featured-collection-0":{"type":"featured-collection","settings":{"title":"Trusted Care for Your Baby’s Needs","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"scheme-b538f9f0-0efd-4999-ac69-c1d64c4b9224","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"standard","columns_mobile":"2","swipe_on_mobile":false,"padding_top":60,"padding_bottom":60}},"image_banner_gL7VQh":{"type":"image-banner","blocks":{"heading_VMQi4V":{"type":"heading","settings":{"heading":"Parents Approved Product","heading_size":"h2"}},"text_9JdUqX":{"type":"text","settings":{"text":"Most recommended & pure care for your baby","text_style":"body"}},"buttons_Xa8Uty":{"type":"buttons","settings":{"button_label_1":"Buy Now","button_link_1":"shopify:\/\/products\/velura-gentle-glow-baby-moisturising-lotion","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_VMQi4V","text_9JdUqX","buttons_Xa8Uty"],"settings":{"image":"shopify:\/\/shop_images\/Frame_1000002192_1.png","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"top-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","image_behavior":"none","mobile_content_alignment":"left","stack_images_on_mobile":true,"show_text_below":false}},"custom_liquid_TFVi9g":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"custom-grid\">\n  <!-- First Row -->\n  <div class=\"grid-item\">\n    <!-- First Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/Frame_1000002163_1.png?v=1726599695\" alt=\"Our Heritage\">\n  <\/div>\n\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 1 -->\n    <div class=\"content\">\n      <h3>Craftsmanship Meets Comfort<\/h3>\n      <p>At Velura, we bring you home textiles that combine the time-honored tradition of Indian craftsmanship with modern design sensibilities. Our products are designed to offer both comfort and elegance, making your home a haven of peace.<\/p>\n      <a href=\"\/collections\/all\" class=\"read-more\">Explore Our Collection →<\/a>\n    <\/div>\n  <\/div>\n\n  <div class=\"grid-item\">\n    <!-- Second Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/happy-little-cute-baby-concept.png?v=1726599695\" alt=\"Sustainable Living\">\n  <\/div>\n\n  <!-- Second Row -->\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 2 -->\n    <div class=\"content\">\n      <h3>Commitment to Sustainability<\/h3>\n      <p>We believe in the power of conscious living. At Velura, sustainability is at the heart of what we do. Our eco-friendly production methods ensure that our products are not only luxurious but also kind to the environment.<\/p>\n      <a href=\"\/pages\/sustainability\" class=\"read-more\">Learn More About Sustainability →<\/a>\n    <\/div>\n  <\/div>\n\n  <div class=\"grid-item\">\n    <!-- Third Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/Frame_1000002163.png?v=1726599695\" alt=\"Indian Tradition\">\n  <\/div>\n\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 3 -->\n    <div class=\"content\">\n      <h3>Rooted in Tradition<\/h3>\n      <p>Velura celebrates the rich heritage of Indian textile craftsmanship. Our products are carefully curated, ensuring every piece carries the essence of Indian artisanship, passed down through generations.<\/p>\n      <a href=\"\/pages\/about-us\" class=\"read-more\">Discover Our Story →<\/a>\n    <\/div>\n  <\/div>\n<\/div>\n\n<!-- CSS styling -->\n<style>\n  .custom-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr; \/* Three columns *\/\n    gap: 0px; \/* Remove space between items *\/\n  }\n\n  .grid-item {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 350px; \/* Set the same height for all grid items *\/\n  }\n\n  .grid-item img {\n    width: 100%;\n    height: 100%; \/* Make the image take the full height of the grid item *\/\n    object-fit: cover; \/* Ensure the image covers the entire area *\/\n  }\n\n  .content-item .content {\n    padding: 20px;\n    background-color: #e7f0ea;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    height: 100%; \/* Ensure text blocks take the full height *\/\n  }\n\n  .content h3 {\n    margin-bottom: 10px;\n    font-size: 1.5rem;\n  }\n\n  .content p {\n    margin-bottom: 15px;\n    font-size: 1rem;\n  }\n\n  .read-more {\n    display: inline-block;\n    text-decoration: none;\n    color: #333;\n    font-weight: bold;\n  }\n\n  .read-more:hover {\n    text-decoration: underline;\n  }\n<\/style>","color_scheme":"scheme-b538f9f0-0efd-4999-ac69-c1d64c4b9224","padding_top":0,"padding_bottom":0}},"custom_liquid_TLG7WY":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"review-slider\">\n  <h2>Velura Reviews: <br> Hear From Happy Parents<\/h2>\n\n  <!-- Slider container -->\n  <div class=\"slider\">\n    <!-- Left arrow -->\n    <span class=\"arrow prev\" onclick=\"moveSlide(-1)\">&#10094;<\/span>\n\n    <!-- Review 1 -->\n    <div class=\"review-content\" style=\"display: block;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Velura's products are simply the best! The fabric quality is unmatched, and my entire family loves how soft and comfortable the bedding is. Highly recommended!”<\/p>\n      <p class=\"reviewer-name\">Priya Kapoor<\/p>\n    <\/div>\n\n    <!-- Review 2 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“I've been using Velura's eco-friendly bedding for months, and I couldn't be happier. Not only is it super comfortable, but knowing it's sustainably made makes me feel good about my purchase.”<\/p>\n      <p class=\"reviewer-name\">Rohit Sharma<\/p>\n    <\/div>\n\n    <!-- Review 3 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Absolutely love the intricate design and craftsmanship of Velura's products. They have transformed the look of my home. Great customer service too!”<\/p>\n      <p class=\"reviewer-name\">Anita Desai<\/p>\n    <\/div>\n\n    <!-- Right arrow -->\n    <span class=\"arrow next\" onclick=\"moveSlide(1)\">&#10095;<\/span>\n  <\/div>\n\n  <!-- Pagination Dots -->\n  <div class=\"dots\">\n    <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(3)\"><\/span>\n  <\/div>\n<\/div>\n\n<!-- CSS Styling -->\n<style>\n  .review-slider {\n    text-align: center;\n    padding: 40px;\n    font-family: Arial, sans-serif;\n  }\n\n  h2 {\n    color: #005370;\n    margin-bottom: 20px;\n  }\n\n  .slider {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    max-width: 600px;\n    margin: 0 auto;\n  }\n\n  .arrow {\n    cursor: pointer;\n    padding: 10px;\n    font-size: 24px;\n    color: #ccc;\n  }\n\n  .review-content {\n    max-width: 500px;\n    padding: 0 20px;\n  }\n\n  .stars {\n    color: #006446;\n    font-size: 18px;\n    margin-bottom: 10px;\n  }\n\n  .review-text {\n    font-size: 16px;\n    color: #555;\n    margin-bottom: 20px;\n    font-style: italic;\n  }\n\n  .reviewer-name {\n    font-weight: bold;\n    color: #006446;\n    font-size: 18px;\n  }\n\n  .dots {\n    margin-top: 10px;\n  }\n\n  .dot {\n    height: 12px;\n    width: 12px;\n    margin: 0 4px;\n    background-color: #ccc;\n    border-radius: 50%;\n    display: inline-block;\n    cursor: pointer;\n  }\n\n  .active, .dot:hover {\n    background-color: #006446;\n  }\n<\/style>\n\n<!-- JavaScript for Auto-Scroll and Slide Functionality -->\n<script>\n  var currentSlideIndex = 0;\n  var totalSlides = 3; \/\/ Hardcoded for 3 reviews\n\n  function moveSlide(direction) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex += direction;\n\n    if (currentSlideIndex >= totalSlides) {\n      currentSlideIndex = 0;\n    } else if (currentSlideIndex < 0) {\n      currentSlideIndex = totalSlides - 1;\n    }\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  function currentSlide(index) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex = index - 1;\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  \/\/ Auto-scroll function\n  function autoScroll() {\n    setInterval(function () {\n      moveSlide(1);\n    }, 4000); \/\/ Change slide every 4 seconds\n  }\n\n  \/\/ Initialize auto-scroll when the page loads\n  window.onload = function() {\n    autoScroll();\n  };\n<\/script>","color_scheme":"","padding_top":40,"padding_bottom":52}}},"order":["image_banner_UW3pfy","image_banner_izBGpV","image_banner_kJM9yG","image_banner_UYzMU9","collection_list_8mM9zr","featured-collection-0","image_banner_gL7VQh","custom_liquid_TFVi9g","custom_liquid_TLG7WY"]}
+{
+  "sections": {
+    "image_banner_UW3pfy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iWqLwW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Because Your Baby Deserves The Purest",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_q6DCmG": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWqLwW",
+        "buttons_q6DCmG"
+      ],
+      "custom_css": [
+        ".banner {margin-top: -150px;}",
+        "h2 {font-weight: 900;}",
+        ".banner__box {max-width: 46rem;}",
+        ".button {background-image: linear-gradient(to right, #1d6148, #658b60); width: 224px; height: 45px;}",
+        "@media only screen and (max-width: 750px) {.banner {margin-top: 0px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BANNER-new.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_izBGpV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Chdn6Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Unique Formulation developed by a Trusted Paediatrician leveraging his Clinical Expertise.",
+            "heading_size": "h1"
+          }
+        },
+        "text_zpfjpi": {
+          "type": "text",
+          "settings": {
+            "text": "Velura is a paediatrician-owned baby care brand dedicated to providing the purest, most gentle care for your little one. Combining medical expertise with a commitment to natural ingredients, Velura offers a range of products designed to nourish, protect, and soothe delicate baby skin.",
+            "text_style": "body"
+          }
+        },
+        "buttons_ngbT49": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View More",
+            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Chdn6Q",
+        "text_zpfjpi",
+        "buttons_ngbT49"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 900; font-size: 32px; color: #035c82;}",
+        ".banner__box {max-width: 50rem;}",
+        ".buttons {font-size: 14px; line-height: 22px; color: #666666;}",
+        ".button {width: 224px; border: 2px;}",
+        ".banner__text {font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_kJM9yG": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/all.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_UYzMU9": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/allimge.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collection_list_8mM9zr": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_4eRfHk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-skincare-essentials"
+          }
+        },
+        "featured_collection_WktHwB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-comfort-relief"
+          }
+        },
+        "featured_collection_Aj8z8d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cleansers"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_4eRfHk",
+        "featured_collection_WktHwB",
+        "featured_collection_Aj8z8d"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Velura's Baby Care Collection",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "featured-collection-0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trusted Care for Your Baby’s Needs",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-b538f9f0-0efd-4999-ac69-c1d64c4b9224",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_banner_gL7VQh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VMQi4V": {
+          "type": "heading",
+          "settings": {
+            "heading": "Parents Approved Product",
+            "heading_size": "h2"
+          }
+        },
+        "text_9JdUqX": {
+          "type": "text",
+          "settings": {
+            "text": "Most recommended & pure care for your baby",
+            "text_style": "body"
+          }
+        },
+        "buttons_Xa8Uty": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Buy Now",
+            "button_link_1": "shopify:\/\/products\/velura-gentle-glow-baby-moisturising-lotion",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VMQi4V",
+        "text_9JdUqX",
+        "buttons_Xa8Uty"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1000002192_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "custom_liquid_TFVi9g": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-grid\">\n  <!-- First Row -->\n  <div class=\"grid-item\">\n    <!-- First Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/Frame_1000002163_1.png?v=1726599695\" alt=\"Our Heritage\">\n  <\/div>\n\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 1 -->\n    <div class=\"content\">\n      <h3>Craftsmanship Meets Comfort<\/h3>\n      <p>At Velura, we bring you home textiles that combine the time-honored tradition of Indian craftsmanship with modern design sensibilities. Our products are designed to offer both comfort and elegance, making your home a haven of peace.<\/p>\n      <a href=\"\/collections\/all\" class=\"read-more\">Explore Our Collection →<\/a>\n    <\/div>\n  <\/div>\n\n  <div class=\"grid-item\">\n    <!-- Second Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/happy-little-cute-baby-concept.png?v=1726599695\" alt=\"Sustainable Living\">\n  <\/div>\n\n  <!-- Second Row -->\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 2 -->\n    <div class=\"content\">\n      <h3>Commitment to Sustainability<\/h3>\n      <p>We believe in the power of conscious living. At Velura, sustainability is at the heart of what we do. Our eco-friendly production methods ensure that our products are not only luxurious but also kind to the environment.<\/p>\n      <a href=\"\/pages\/sustainability\" class=\"read-more\">Learn More About Sustainability →<\/a>\n    <\/div>\n  <\/div>\n\n  <div class=\"grid-item\">\n    <!-- Third Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/Frame_1000002163.png?v=1726599695\" alt=\"Indian Tradition\">\n  <\/div>\n\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 3 -->\n    <div class=\"content\">\n      <h3>Rooted in Tradition<\/h3>\n      <p>Velura celebrates the rich heritage of Indian textile craftsmanship. Our products are carefully curated, ensuring every piece carries the essence of Indian artisanship, passed down through generations.<\/p>\n      <a href=\"\/pages\/about-us\" class=\"read-more\">Discover Our Story →<\/a>\n    <\/div>\n  <\/div>\n<\/div>\n\n<!-- CSS styling -->\n<style>\n  .custom-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr; \/* Three columns *\/\n    gap: 0px; \/* Remove space between items *\/\n  }\n\n  .grid-item {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 350px; \/* Set the same height for all grid items *\/\n  }\n\n  .grid-item img {\n    width: 100%;\n    height: 100%; \/* Make the image take the full height of the grid item *\/\n    object-fit: cover; \/* Ensure the image covers the entire area *\/\n  }\n\n  .content-item .content {\n    padding: 20px;\n    background-color: #e7f0ea;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    height: 100%; \/* Ensure text blocks take the full height *\/\n  }\n\n  .content h3 {\n    margin-bottom: 10px;\n    font-size: 1.5rem;\n  }\n\n  .content p {\n    margin-bottom: 15px;\n    font-size: 1rem;\n  }\n\n  .read-more {\n    display: inline-block;\n    text-decoration: none;\n    color: #333;\n    font-weight: bold;\n  }\n\n  .read-more:hover {\n    text-decoration: underline;\n  }\n<\/style>",
+        "color_scheme": "scheme-b538f9f0-0efd-4999-ac69-c1d64c4b9224",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_TLG7WY": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"review-slider\">\n  <h2>Velura Reviews: <br> Hear From Happy Parents<\/h2>\n\n  <!-- Slider container -->\n  <div class=\"slider\">\n    <!-- Left arrow -->\n    <span class=\"arrow prev\" onclick=\"moveSlide(-1)\">&#10094;<\/span>\n\n    <!-- Review 1 -->\n    <div class=\"review-content\" style=\"display: block;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Velura's products are simply the best! The fabric quality is unmatched, and my entire family loves how soft and comfortable the bedding is. Highly recommended!”<\/p>\n      <p class=\"reviewer-name\">Priya Kapoor<\/p>\n    <\/div>\n\n    <!-- Review 2 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“I've been using Velura's eco-friendly bedding for months, and I couldn't be happier. Not only is it super comfortable, but knowing it's sustainably made makes me feel good about my purchase.”<\/p>\n      <p class=\"reviewer-name\">Rohit Sharma<\/p>\n    <\/div>\n\n    <!-- Review 3 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Absolutely love the intricate design and craftsmanship of Velura's products. They have transformed the look of my home. Great customer service too!”<\/p>\n      <p class=\"reviewer-name\">Anita Desai<\/p>\n    <\/div>\n\n    <!-- Right arrow -->\n    <span class=\"arrow next\" onclick=\"moveSlide(1)\">&#10095;<\/span>\n  <\/div>\n\n  <!-- Pagination Dots -->\n  <div class=\"dots\">\n    <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(3)\"><\/span>\n  <\/div>\n<\/div>\n\n<!-- CSS Styling -->\n<style>\n  .review-slider {\n    text-align: center;\n    padding: 40px;\n    font-family: Arial, sans-serif;\n  }\n\n  h2 {\n    color: #005370;\n    margin-bottom: 20px;\n  }\n\n  .slider {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    max-width: 600px;\n    margin: 0 auto;\n  }\n\n  .arrow {\n    cursor: pointer;\n    padding: 10px;\n    font-size: 24px;\n    color: #ccc;\n  }\n\n  .review-content {\n    max-width: 500px;\n    padding: 0 20px;\n  }\n\n  .stars {\n    color: #006446;\n    font-size: 18px;\n    margin-bottom: 10px;\n  }\n\n  .review-text {\n    font-size: 16px;\n    color: #555;\n    margin-bottom: 20px;\n    font-style: italic;\n  }\n\n  .reviewer-name {\n    font-weight: bold;\n    color: #006446;\n    font-size: 18px;\n  }\n\n  .dots {\n    margin-top: 10px;\n  }\n\n  .dot {\n    height: 12px;\n    width: 12px;\n    margin: 0 4px;\n    background-color: #ccc;\n    border-radius: 50%;\n    display: inline-block;\n    cursor: pointer;\n  }\n\n  .active, .dot:hover {\n    background-color: #006446;\n  }\n<\/style>\n\n<!-- JavaScript for Auto-Scroll and Slide Functionality -->\n<script>\n  var currentSlideIndex = 0;\n  var totalSlides = 3; \/\/ Hardcoded for 3 reviews\n\n  function moveSlide(direction) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex += direction;\n\n    if (currentSlideIndex >= totalSlides) {\n      currentSlideIndex = 0;\n    } else if (currentSlideIndex < 0) {\n      currentSlideIndex = totalSlides - 1;\n    }\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  function currentSlide(index) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex = index - 1;\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  \/\/ Auto-scroll function\n  function autoScroll() {\n    setInterval(function () {\n      moveSlide(1);\n    }, 4000); \/\/ Change slide every 4 seconds\n  }\n\n  \/\/ Initialize auto-scroll when the page loads\n  window.onload = function() {\n    autoScroll();\n  };\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner_UW3pfy",
+    "image_banner_izBGpV",
+    "image_banner_kJM9yG",
+    "image_banner_UYzMU9",
+    "collection_list_8mM9zr",
+    "featured-collection-0",
+    "image_banner_gL7VQh",
+    "custom_liquid_TFVi9g",
+    "custom_liquid_TLG7WY"
+  ]
+}
