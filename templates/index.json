@@ -34,7 +34,7 @@
         "@media only screen and (max-width: 750px) {.banner {margin-top: 0px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER-new.png",
+        "image": "shopify:\/\/shop_images\/hero-banner.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",
@@ -118,61 +118,75 @@
         "show_text_below": true
       }
     },
-    "image_banner_UYzMU9": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/allimge.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "collection_list_8mM9zr": {
       "type": "collection-list",
       "blocks": {
         "featured_collection_4eRfHk": {
           "type": "featured_collection",
           "settings": {
-            "collection": "baby-skincare-essentials"
+            "collection": "moisturisers"
           }
         },
         "featured_collection_WktHwB": {
           "type": "featured_collection",
           "settings": {
-            "collection": "baby-comfort-relief"
+            "collection": "treatments"
           }
         },
         "featured_collection_Aj8z8d": {
           "type": "featured_collection",
           "settings": {
+            "collection": "tummy-roll"
+          }
+        },
+        "featured_collection_MwTCPJ": {
+          "type": "featured_collection",
+          "settings": {
             "collection": "cleansers"
+          }
+        },
+        "featured_collection_b3f3dV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-skincare-essentials"
+          }
+        },
+        "featured_collection_Yzd9wW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-comfort-relief"
           }
         }
       },
       "block_order": [
         "featured_collection_4eRfHk",
         "featured_collection_WktHwB",
-        "featured_collection_Aj8z8d"
+        "featured_collection_Aj8z8d",
+        "featured_collection_MwTCPJ",
+        "featured_collection_b3f3dV",
+        "featured_collection_Yzd9wW"
       ],
-      "disabled": true,
+      "custom_css": [
+        "h2 {margin-inline: auto; font-weight: 900; font-size: 32px; line-height: 43px;}",
+        ".card__inner {width: 80%;}",
+        ".card:not(.ratio) {align-items: center;}",
+        ".card:not(.ratio) > .card__content {grid-template-rows: none;}",
+        ".card__information {padding: 1.3rem 3rem;}",
+        ".collection-list__item:nth-child(odd),.collection-list__item:nth-child(4),.collection-list__item:nth-child(6) {transform: translateY(40px) !important;}",
+        ".collection-list__item:nth-child(5) {transform: translateY(0px) !important;}",
+        ".card:hover {background-color: #035c82bd;}"
+      ],
       "settings": {
-        "title": "Velura's Baby Care Collection",
-        "heading_size": "h1",
-        "image_ratio": "portrait",
+        "title": "Velura’s Complete Care for Your Baby",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
-        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "color_scheme": "scheme-4",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 16
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured-collection-0": {
@@ -274,7 +288,6 @@
     "image_banner_UW3pfy",
     "image_banner_izBGpV",
     "image_banner_kJM9yG",
-    "image_banner_UYzMU9",
     "collection_list_8mM9zr",
     "featured-collection-0",
     "image_banner_gL7VQh",

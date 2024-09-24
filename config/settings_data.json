@@ -11,7 +11,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 28,
     "spacing_grid_vertical": 28,
-    "animations_reveal_on_scroll": false,
+    "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
@@ -37,7 +37,7 @@
     "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+    "card_color_scheme": "scheme-1",
     "card_border_thickness": 1,
     "card_border_opacity": 100,
     "card_corner_radius": 18,
@@ -46,12 +46,12 @@
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
     "collection_card_style": "card",
-    "collection_card_image_padding": 0,
+    "collection_card_image_padding": 20,
     "collection_card_text_alignment": "left",
-    "collection_card_color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
-    "collection_card_border_thickness": 1,
+    "collection_card_color_scheme": "scheme-5",
+    "collection_card_border_thickness": 0,
     "collection_card_border_opacity": 100,
-    "collection_card_corner_radius": 18,
+    "collection_card_corner_radius": 6,
     "collection_card_shadow_opacity": 0,
     "collection_card_shadow_horizontal_offset": 0,
     "collection_card_shadow_vertical_offset": 4,
@@ -181,9 +181,9 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#4770db",
+          "background": "#e8f3f5",
           "background_gradient": "",
-          "text": "#ffffff",
+          "text": "#035c82",
           "button": "#ffffff",
           "button_label": "#4770db",
           "secondary_button_label": "#ffffff",
@@ -192,9 +192,9 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#e32402",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#ffffff",
+          "text": "#29684c",
           "button": "#ffffff",
           "button_label": "#e32402",
           "secondary_button_label": "#ffffff",
@@ -438,5 +438,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }
