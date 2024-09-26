@@ -7,7 +7,7 @@
     "heading_scale": 110,
     "type_body_font": "questrial_n4",
     "body_scale": 105,
-    "page_width": 1200,
+    "page_width": 1300,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 28,
     "spacing_grid_vertical": 28,
@@ -36,15 +36,15 @@
     "inputs_shadow_blur": 5,
     "card_style": "card",
     "card_image_padding": 0,
-    "card_text_alignment": "left",
+    "card_text_alignment": "center",
     "card_color_scheme": "scheme-1",
-    "card_border_thickness": 1,
+    "card_border_thickness": 0,
     "card_border_opacity": 100,
     "card_corner_radius": 18,
-    "card_shadow_opacity": 0,
-    "card_shadow_horizontal_offset": 0,
-    "card_shadow_vertical_offset": 4,
-    "card_shadow_blur": 5,
+    "card_shadow_opacity": 10,
+    "card_shadow_horizontal_offset": 6,
+    "card_shadow_vertical_offset": 6,
+    "card_shadow_blur": 40,
     "collection_card_style": "card",
     "collection_card_image_padding": 20,
     "collection_card_text_alignment": "left",
@@ -56,13 +56,13 @@
     "collection_card_shadow_horizontal_offset": 0,
     "collection_card_shadow_vertical_offset": 4,
     "collection_card_shadow_blur": 5,
-    "blog_card_style": "card",
+    "blog_card_style": "standard",
     "blog_card_image_padding": 16,
     "blog_card_text_alignment": "left",
     "blog_card_color_scheme": "scheme-1",
     "blog_card_border_thickness": 1,
     "blog_card_border_opacity": 100,
-    "blog_card_corner_radius": 18,
+    "blog_card_corner_radius": 6,
     "blog_card_shadow_opacity": 0,
     "blog_card_shadow_horizontal_offset": 0,
     "blog_card_shadow_vertical_offset": 4,
@@ -100,8 +100,8 @@
     "sold_out_badge_color_scheme": "scheme-5",
     "brand_headline": "",
     "brand_description": "<p><\/p>",
-    "brand_image": "shopify:\/\/shop_images\/bottom.png",
-    "brand_image_width": 100,
+    "brand_image": "shopify:\/\/shop_images\/newlogo.png",
+    "brand_image_width": 130,
     "social_facebook_link": "https:\/\/www.facebook.com\/people\/veluraindia\/61563824874695\/?mibextid=ZbWKwL",
     "social_instagram_link": "https:\/\/www.instagram.com\/veluraindia?igsh=dWd4OWo2aHhvdzM1",
     "social_youtube_link": "https:\/\/www.youtube.com\/@veluraindia",
@@ -148,12 +148,12 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#eff0f5",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#0e1b4d",
+          "text": "#29684c",
           "button": "#4770db",
           "button_label": "#eff0f5",
-          "secondary_button_label": "#0e1b4d",
+          "secondary_button_label": "#1d6148",
           "shadow": "#0e1b4d"
         }
       },
@@ -161,7 +161,7 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#0e1b4d",
+          "text": "#3e4a3c",
           "button": "#0e1b4d",
           "button_label": "#ffffff",
           "secondary_button_label": "#0e1b4d",
@@ -236,13 +236,13 @@
       },
       "scheme-b538f9f0-0efd-4999-ac69-c1d64c4b9224": {
         "settings": {
-          "background": "#eff0f5",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#035c82",
           "button": "#cdd1ce",
           "button_label": "#eff0f5",
           "secondary_button_label": "#0e1b4d",
-          "shadow": "#0e1b4d"
+          "shadow": "#020202"
         }
       }
     }

@@ -84,8 +84,7 @@
       "custom_css": [
         "h2 {font-weight: 900; font-size: 32px; color: #035c82;}",
         ".banner__box {max-width: 50rem;}",
-        ".buttons {font-size: 14px; line-height: 22px; color: #666666;}",
-        ".button {width: 224px; border: 2px;}",
+        ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px;}",
         ".banner__text {font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}"
       ],
       "settings": {
@@ -168,8 +167,7 @@
       ],
       "custom_css": [
         "h2 {margin-inline: auto; font-weight: 900; font-size: 32px; line-height: 43px;}",
-        ".card__inner {width: 80%;}",
-        ".card:not(.ratio) {align-items: center;}",
+        ".card:hover .card__heading {color: white !important;}",
         ".card:not(.ratio) > .card__content {grid-template-rows: none;}",
         ".card__information {padding: 1.3rem 3rem;}",
         ".collection-list__item:nth-child(odd),.collection-list__item:nth-child(4),.collection-list__item:nth-child(6) {transform: translateY(40px) !important;}",
@@ -191,9 +189,12 @@
     },
     "featured-collection-0": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center; font-weight: 900; font-size: 32px; line-height: 43px;}"
+      ],
       "settings": {
         "title": "Trusted Care for Your Baby’s Needs",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -223,7 +224,7 @@
         "heading_VMQi4V": {
           "type": "heading",
           "settings": {
-            "heading": "Parents Approved Product",
+            "heading": "Parent-Approved Product",
             "heading_size": "h2"
           }
         },
@@ -239,7 +240,7 @@
           "settings": {
             "button_label_1": "Buy Now",
             "button_link_1": "shopify:\/\/products\/velura-gentle-glow-baby-moisturising-lotion",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -250,6 +251,12 @@
         "heading_VMQi4V",
         "text_9JdUqX",
         "buttons_Xa8Uty"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 900; font-size: 60px; color: #035c82; line-height: 63px;}",
+        ".banner__box {max-width: 38rem;}",
+        ".banner__text {width: 50%; font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}",
+        ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Frame_1000002192_1.png",
@@ -265,13 +272,28 @@
         "show_text_below": false
       }
     },
-    "custom_liquid_TFVi9g": {
-      "type": "custom-liquid",
+    "featured_blog_tKCVtW": {
+      "type": "featured-blog",
+      "custom_css": [
+        "h2 {margin-inline: auto; font-weight: 900; font-size: 32px; line-height: 43px; color: #035c82;}",
+        ".card:not(.ratio) {flex-direction: row;}",
+        ".slider {max-width: fit-content;}",
+        ".card__inner {border: 2px dashed #035c82;}",
+        ".card__information {background-color: #d2e4d6; border-radius: 10px; margin-left: 10px;}"
+      ],
       "settings": {
-        "custom_liquid": "<div class=\"custom-grid\">\n  <!-- First Row -->\n  <div class=\"grid-item\">\n    <!-- First Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/Frame_1000002163_1.png?v=1726599695\" alt=\"Our Heritage\">\n  <\/div>\n\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 1 -->\n    <div class=\"content\">\n      <h3>Craftsmanship Meets Comfort<\/h3>\n      <p>At Velura, we bring you home textiles that combine the time-honored tradition of Indian craftsmanship with modern design sensibilities. Our products are designed to offer both comfort and elegance, making your home a haven of peace.<\/p>\n      <a href=\"\/collections\/all\" class=\"read-more\">Explore Our Collection →<\/a>\n    <\/div>\n  <\/div>\n\n  <div class=\"grid-item\">\n    <!-- Second Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/happy-little-cute-baby-concept.png?v=1726599695\" alt=\"Sustainable Living\">\n  <\/div>\n\n  <!-- Second Row -->\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 2 -->\n    <div class=\"content\">\n      <h3>Commitment to Sustainability<\/h3>\n      <p>We believe in the power of conscious living. At Velura, sustainability is at the heart of what we do. Our eco-friendly production methods ensure that our products are not only luxurious but also kind to the environment.<\/p>\n      <a href=\"\/pages\/sustainability\" class=\"read-more\">Learn More About Sustainability →<\/a>\n    <\/div>\n  <\/div>\n\n  <div class=\"grid-item\">\n    <!-- Third Image -->\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/Frame_1000002163.png?v=1726599695\" alt=\"Indian Tradition\">\n  <\/div>\n\n  <div class=\"grid-item content-item\">\n    <!-- Text Block 3 -->\n    <div class=\"content\">\n      <h3>Rooted in Tradition<\/h3>\n      <p>Velura celebrates the rich heritage of Indian textile craftsmanship. Our products are carefully curated, ensuring every piece carries the essence of Indian artisanship, passed down through generations.<\/p>\n      <a href=\"\/pages\/about-us\" class=\"read-more\">Discover Our Story →<\/a>\n    <\/div>\n  <\/div>\n<\/div>\n\n<!-- CSS styling -->\n<style>\n  .custom-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr; \/* Three columns *\/\n    gap: 0px; \/* Remove space between items *\/\n  }\n\n  .grid-item {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 350px; \/* Set the same height for all grid items *\/\n  }\n\n  .grid-item img {\n    width: 100%;\n    height: 100%; \/* Make the image take the full height of the grid item *\/\n    object-fit: cover; \/* Ensure the image covers the entire area *\/\n  }\n\n  .content-item .content {\n    padding: 20px;\n    background-color: #e7f0ea;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    height: 100%; \/* Ensure text blocks take the full height *\/\n  }\n\n  .content h3 {\n    margin-bottom: 10px;\n    font-size: 1.5rem;\n  }\n\n  .content p {\n    margin-bottom: 15px;\n    font-size: 1rem;\n  }\n\n  .read-more {\n    display: inline-block;\n    text-decoration: none;\n    color: #333;\n    font-weight: bold;\n  }\n\n  .read-more:hover {\n    text-decoration: underline;\n  }\n<\/style>",
-        "color_scheme": "scheme-b538f9f0-0efd-4999-ac69-c1d64c4b9224",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "heading": "Velura Insights: Our Latest Blog Posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_liquid_TLG7WY": {
@@ -291,7 +313,7 @@
     "collection_list_8mM9zr",
     "featured-collection-0",
     "image_banner_gL7VQh",
-    "custom_liquid_TFVi9g",
+    "featured_blog_tKCVtW",
     "custom_liquid_TLG7WY"
   ]
 }
