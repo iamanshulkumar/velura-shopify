@@ -1,1 +1,83 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":12,"columns_desktop":3,"color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":true,"quick_add":"standard","enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"columns_mobile":"2","padding_top":0,"padding_bottom":60}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "image_banner_RdrgNL": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Pd6wTK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Products",
+            "heading_size": "h1"
+          }
+        },
+        "text_Grw3mz": {
+          "type": "text",
+          "settings": {
+            "text": "<a href=\"\/\" title=\"\/\">Home<\/a> \/ Products",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pd6wTK",
+        "text_Grw3mz"
+      ],
+      "custom_css": [
+        ".banner {margin-top: -150px;}",
+        "h2 {font-size: 45px; font-weight: 900;}",
+        ".body p {color: #151515; font-family: \"Overlock\"; font-size: 18px; font-weight: 400;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "h3 {font-weight: 900;}",
+        "#FacetsWrapperDesktop {color: black;}",
+        ".card--card.card--media > .card__content {background-color: #E6EFE8; border-radius: 0 0 15px 15px;}"
+      ],
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 52,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_RdrgNL",
+    "banner",
+    "product-grid"
+  ]
+}

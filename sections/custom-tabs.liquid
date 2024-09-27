@@ -1,0 +1,533 @@
+{% stylesheet %}
+  :root {
+    --tab-active-color: #1d6148;
+    --tab-inactive-color: #888888;
+    --content-color: black;
+    --font-family: 'Overlock';
+  }
+
+  ul.custom--tabs {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+
+  .custom--tabs .tab__list {
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: left;
+    color: var(--tab-inactive-color);
+  }
+
+  .custom__tab-content {
+    display: none;
+    color: var(--content-color);
+    font-size: 16px;
+  }
+
+  .custom__tab-content.active {
+    display: block;
+  }
+
+  .tab__list h6.custom-tab {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .tab__list h6.custom-tab.active {
+    color: var(--tab-active-color);
+    border-bottom: 2px solid var(--tab-active-color);
+  }
+
+  @media only screen and (max-width: 576px) {
+    ul.custom--tabs {
+      flex-direction: column;
+    }
+    .tab__list h6.custom-tab {
+      width: 100%;
+      padding: 10px 15px;
+      margin: 10px 0;
+    }
+    .custom__tab-content.active {
+      padding: 0 15px;
+    }
+  }
+{% endstylesheet %}
+
+<ul class="custom--tabs page-width" role="tablist">
+  {% for block in section.blocks %}
+    {% if block.type == 'tab' %}
+      <li class="tab__list {% if forloop.first %}active{% endif %}" role="presentation">
+        <h6
+          class="custom-tab {% if forloop.first %}active{% endif %}"
+          data-content-id="content--{{ block.id }}--{{ section.id }}"
+          role="tab"
+          aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+          tabindex="{% if forloop.first %}0{% else %}-1{% endif %}"
+        >
+          {{ block.settings.heading }}
+        </h6>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% for block in section.blocks %}
+  {% if block.type == 'tab' %}
+    <div
+      id="content--{{ block.id }}--{{ section.id }}"
+      class="custom__tab-content page-width {% if forloop.first %}active{% endif %}"
+      role="tabpanel"
+      aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}"
+    >
+      {% if block.settings.heading == 'Reviews' %}
+        <!-- Judge.me Reviews Widget -->
+        {% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', product: product %}
+        {% comment %} <div>
+          <div id="shopify-block-judge_me_reviews_review_widget_TCXbiR" class="shopify-block shopify-app-block">
+            <div style="clear:both"></div>
+            <div
+              id="judgeme_product_reviews"
+              class="jdgm-widget jdgm-review-widget jdgm--done-setup-widget"
+              data-product-title="Velura Gentle Glow Baby Moisturising Lotion"
+              data-id="9512028963136"
+              data-widget-name="review_widget"
+              data-impressions-tracked="true"
+              data-views-tracked="true"
+            >
+              <div class="jdgm-rev-widg jdgm--js" data-number-of-reviews="0" data-average-rating="0.00">
+                <div class="jdgm-rev-widg__header">
+                  <h2 class="jdgm-rev-widg__title">Customer Reviews</h2>
+                  <div class="jdgm-row-stars">
+                    <div class="jdgm-rev-widg__summary">
+                      <div class="jdgm-rev-widg__summary-inner">
+                        <div class="jdgm-rev-widg__summary-stars">
+                          <span class="jdgm-star jdgm--off"></span><span class="jdgm-star jdgm--off"></span
+                          ><span class="jdgm-star jdgm--off"></span><span class="jdgm-star jdgm--off"></span
+                          ><span class="jdgm-star jdgm--off"></span>
+                        </div>
+                        <div class="jdgm-rev-widg__summary-text">Be the first to write a review</div>
+                      </div>
+                    </div>
+                    <div class="jdgm-widget-actions-wrapper">
+                      <a href="#" class="jdgm-write-rev-link" aria-expanded="false">Write a review</a>
+                    </div>
+                  </div>
+
+                  <div class="jdgm-form-wrapper" style="display: none">
+                    <form class="jdgm-form" novalidate="novalidate">
+                      <div class="jdgm-form__title">Write a review</div>
+
+                      <div class="jdgm-form__fieldset" aria-label="Rating">
+                        <label>Rating</label>
+                        <span class="jdgm-form__rating" style="cursor: pointer;"
+                          ><a
+                            data-alt="1"
+                            class="jdgm-star jdgm--off"
+                            title="1 star"
+                            role="button"
+                            aria-label="1 star"
+                          ></a
+                          ><a
+                            data-alt="2"
+                            class="jdgm-star jdgm--off"
+                            title="2 stars"
+                            role="button"
+                            aria-label="2 stars"
+                          ></a
+                          ><a
+                            data-alt="3"
+                            class="jdgm-star jdgm--off"
+                            title="3 stars"
+                            role="button"
+                            aria-label="3 stars"
+                          ></a
+                          ><a
+                            data-alt="4"
+                            class="jdgm-star jdgm--off"
+                            title="4 stars"
+                            role="button"
+                            aria-label="4 stars"
+                          ></a
+                          ><a
+                            data-alt="5"
+                            class="jdgm-star jdgm--off"
+                            title="5 stars"
+                            role="button"
+                            aria-label="5 stars"
+                          ></a
+                          ><input name="score" type="hidden"
+                        ></span>
+                      </div>
+
+                      <div class="jdgm-form__fieldset">
+                        <label class="jdgm-form__inline-label" for="jdgm_review_title_zwf68pjga">Review Title</label
+                        ><span class="jdgm-countdown"></span>
+                        <input
+                          id="jdgm_review_title_zwf68pjga"
+                          name="review_title"
+                          type="text"
+                          placeholder="Give your review a title"
+                          aria-label="Review Title"
+                        >
+                      </div>
+
+                      <div class="jdgm-form__fieldset">
+                        <label class="jdgm-form__inline-label" for="jdgm_review_body_zwf68pjga">Review</label
+                        ><span class="jdgm-countdown"></span>
+                        <textarea
+                          id="jdgm_review_body_zwf68pjga"
+                          rows="5"
+                          name="review_body"
+                          placeholder="Write your comments here"
+                          aria-label="Review"
+                        ></textarea>
+                      </div>
+
+                      <div class="jdgm-form__fieldset">
+                        <label>Picture/Video (optional)</label>
+
+                        <div class="jdgm-media-fieldset__container">
+                          <div class="jdgm-picture-fieldset__box jdgm-picture-fieldset__box--input">
+                            <div class="jdgm-picture-fieldset__box-wrapper">
+                              <div class="jdgm-media-fieldset__icon"></div>
+                            </div>
+
+                            <input
+                              type="file"
+                              name="media"
+                              class="jdgm-media-fieldset__input"
+                              multiple=""
+                              accept="image/gif,image/jpeg,image/jpg,image/png,image/webp"
+                              aria-label="Choose a review picture/video (optional)"
+                            >
+                            <div style="display: none !important" aria-label="Choose a review picture/video (optional)">
+                              Choose a review picture/video (optional)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="jdgm-custom-forms"></div>
+
+                      <div class="jdgm-form__fieldset">
+                        <label class="jdgm-form__inline-label" for="jdgm_review_reviewer_name_zwf68pjga">Name</label>
+
+                        <span class="jdgm-form__reviewer-name-format-container">
+                          (<label
+                            for="jdgm_review_reviewer_name_format_zwf68pjga"
+                            class="jdgm-form__inline-label jdgm-always-visible"
+                            >displayed publicly like</label
+                          >
+                          <span class="jdgm-sort-dropdown-wrapper">
+                            <select
+                              id="jdgm_review_reviewer_name_format_zwf68pjga"
+                              name="reviewer_name_format"
+                              class="jdgm-sort-dropdown"
+                              aria-label="Name format"
+                            >
+                              <option value="" selected="">John Smith</option>
+
+                              <option value="last_initial">John S.</option>
+
+                              <option value="all_initials">J.S.</option>
+
+                              <option value="anonymous">Anonymous</option>
+                            </select>
+                            <span class="jdgm-sort-dropdown-arrow"></span>
+                          </span>
+                          )
+                        </span>
+
+                        <input
+                          id="jdgm_review_reviewer_name_zwf68pjga"
+                          name="reviewer_name"
+                          type="text"
+                          placeholder="Enter your name (public)"
+                          aria-label="Name"
+                        >
+                      </div>
+
+                      <div class="jdgm-form__fieldset jdgm-form__email-fieldset">
+                        <label for="jdgm_review_reviewer_email_zwf68pjga">Email</label>
+                        <input
+                          id="jdgm_review_reviewer_email_zwf68pjga"
+                          name="reviewer_email"
+                          type="email"
+                          required=""
+                          placeholder="Enter your email (private)"
+                          aria-label="Email"
+                          aria-required="true"
+                        >
+                      </div>
+
+                      <div class="jdgm-form__fieldset">
+                        <p>
+                          How we use your data: We’ll only contact you about the review you left, and only if necessary.
+                          By submitting your review, you agree to Judge.me’s
+                          <a href="https://judge.me/terms" target="_blank" rel="nofollow noopener">terms</a>,
+                          <a href="https://judge.me/privacy" target="_blank" rel="nofollow noopener">privacy</a> and
+                          <a href="https://judge.me/content-policy" target="_blank" rel="nofollow noopener">content</a>
+                          policies.
+                        </p>
+                      </div>
+
+                      <div class="jdgm-form__fieldset jdgm-form__fieldset-actions">
+                        <a
+                          href="#judgeme_product_reviews"
+                          role="button"
+                          class="jdgm-btn jdgm-btn--border jdgm-cancel-rev "
+                          >Cancel review</a
+                        >
+                        <input type="submit" class="jdgm-btn jdgm-btn--solid jdgm-submit-rev " value="Submit Review">
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="jdgm-form-dynamic-wrapper" style="display: none">
+                    <form class="jdgm-form jdgm-form-dynamic" novalidate="novalidate">
+                      <div class="jdgm-form-dynamic__close jdgm-close-ico"></div>
+
+                      <div class="jdgm-form-dynamic__row jdgm-form-dynamic__picture-upload-field" data-pos="0">
+                        <div class="jdgm-form-dynamic__row-inner">
+                          <div class="jdgm-form__title">Picture/Video (optional)</div>
+
+                          <div class="jdgm-form__fieldset">
+                            <div class="jdgm-media-fieldset__container">
+                              <div class="jdgm-picture-fieldset__box jdgm-picture-fieldset__box--input">
+                                <div class="jdgm-picture-fieldset__box-wrapper">
+                                  <div class="jdgm-media-fieldset__icon"></div>
+                                </div>
+
+                                <input
+                                  type="file"
+                                  name="media"
+                                  class="jdgm-media-fieldset__input"
+                                  multiple=""
+                                  accept="image/gif,image/jpeg,image/jpg,image/png,image/webp"
+                                  aria-label="Choose a review picture/video (optional)"
+                                >
+                                <div
+                                  style="display: none !important"
+                                  aria-label="Choose a review picture/video (optional)"
+                                >
+                                  Choose a review picture/video (optional)
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="jdgm-form-dynamic__buttons-row">
+                          <div
+                            class="jdgm-btn jdgm-btn--border jdgm-form-dynamic__back btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Back
+                          </div>
+                          <div
+                            class="jdgm-btn jdgm-btn--solid jdgm-form-dynamic__next btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Next
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="jdgm-form-dynamic__row" data-pos="1">
+                        <div class="jdgm-form-dynamic__row-inner">
+                          <div class="jdgm-form__title">Rating</div>
+                          <span class="jdgm-form-dynamic__rating" style="cursor: pointer;"
+                            ><a data-alt="1" class="jdgm-star jdgm--off" title="1 star"></a
+                            ><a data-alt="2" class="jdgm-star jdgm--off" title="2 stars"></a
+                            ><a data-alt="3" class="jdgm-star jdgm--off" title="3 stars"></a
+                            ><a data-alt="4" class="jdgm-star jdgm--off" title="4 stars"></a
+                            ><a data-alt="5" class="jdgm-star jdgm--off" title="5 stars"></a
+                            ><input name="score" type="hidden"
+                          ></span>
+                        </div>
+                        <div class="jdgm-form-dynamic__buttons-row">
+                          <div
+                            class="jdgm-btn jdgm-btn--border jdgm-form-dynamic__back btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Back
+                          </div>
+                          <div
+                            class="jdgm-btn jdgm-btn--solid jdgm-form-dynamic__next btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Next
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="jdgm-form-dynamic__row" data-pos="2">
+                        <div class="jdgm-form-dynamic__row-inner">
+                          <div class="jdgm-form__fieldset">
+                            <label for="jdgm_reviewer_name">Name</label>
+                            <input
+                              id="jdgm_reviewer_name"
+                              name="reviewer_name"
+                              type="text"
+                              placeholder="Enter your name (public)"
+                            >
+                          </div>
+
+                          <div class="jdgm-form__fieldset jdgm-form-dynamic__email-fieldset">
+                            <label for="jdgm_reviewer_email">Email</label>
+                            <input
+                              id="jdgm_reviewer_email"
+                              name="reviewer_email"
+                              type="email"
+                              placeholder="Enter your email (private)"
+                            >
+                          </div>
+                        </div>
+                        <div class="jdgm-form-dynamic__buttons-row">
+                          <div
+                            class="jdgm-btn jdgm-btn--border jdgm-form-dynamic__back btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Back
+                          </div>
+                          <div
+                            class="jdgm-btn jdgm-btn--solid jdgm-form-dynamic__next btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Next
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="jdgm-form-dynamic__row jdgm-form-dynamic__submit-slide" data-pos="3">
+                        <div class="jdgm-form-dynamic__row-inner">
+                          <div class="jdgm-form__fieldset">
+                            <label class="jdgm-form__inline-label" for="jdgm_review_title">Review Title</label
+                            ><span class="jdgm-countdown"></span>
+                            <input
+                              id="jdgm_review_title"
+                              name="review_title"
+                              type="text"
+                              placeholder="Give your review a title"
+                            >
+                          </div>
+
+                          <div class="jdgm-form__fieldset">
+                            <label class="jdgm-form__inline-label" for="jdgm_review_body">Review</label
+                            ><span class="jdgm-countdown"></span>
+                            <textarea
+                              id="jdgm_review_body"
+                              rows="5"
+                              name="review_body"
+                              placeholder="Write your comments here"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="jdgm-form-dynamic__buttons-row">
+                          <div
+                            class="jdgm-btn jdgm-btn--border jdgm-form-dynamic__back btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Back
+                          </div>
+                          <div
+                            class="jdgm-btn jdgm-btn--solid jdgm-form-dynamic__next btn btn_c button"
+                            tabindex="0"
+                            role="button"
+                          >
+                            Next
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="jdgm-custom-forms jdgm-custom-forms-dynamic"></div>
+
+                      <input
+                        type="submit"
+                        class="jdgm-btn jdgm-btn--solid jdgm-form-dynamic__submit-rev "
+                        value="Submit Review"
+                      >
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> {% endcomment %}
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% javascript %}
+  tabs = document.querySelectorAll('.custom-tab');
+  tabContents = document.querySelectorAll('.custom__tab-content');
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      contentId = this.dataset.contentId;
+      content = document.getElementById(contentId);
+
+      tabContents.forEach(function (content) {
+        content.classList.remove('active');
+      });
+
+      tabs.forEach(function (tab) {
+        tab.classList.remove('active');
+      });
+
+      this.classList.add('active');
+      content.classList.add('active');
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Tabs",
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tabs",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Include a heading that explains the tab."
+        },
+        {
+          "type": "richtext",
+          "id": "tab_content",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tabs",
+      "blocks": [
+        {
+          "type": "tab"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

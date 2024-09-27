@@ -96,7 +96,7 @@
     "drawer_shadow_blur": 5,
     "badge_position": "top left",
     "badge_corner_radius": 0,
-    "sale_badge_color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+    "sale_badge_color_scheme": "scheme-1",
     "sold_out_badge_color_scheme": "scheme-5",
     "brand_headline": "",
     "brand_description": "<p><\/p>",
@@ -143,6 +143,20 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7553055287323118546": {
+        "type": "shopify:\/\/apps\/tinytabs\/blocks\/tabs-embed\/cd5da974-394e-41cb-b448-0c9a6d16a42d",
+        "disabled": true,
+        "settings": {
+          "css_selector": "",
+          "custom_css": ""
+        }
       }
     },
     "color_schemes": {
@@ -151,7 +165,7 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#29684c",
-          "button": "#4770db",
+          "button": "#29684c",
           "button_label": "#eff0f5",
           "secondary_button_label": "#1d6148",
           "shadow": "#0e1b4d"
@@ -441,7 +455,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".product__text {margin-bottom: 0; color: black;}"
     ]
   }
 }

@@ -31,8 +31,8 @@
       "type": "header",
       "custom_css": [
         ".gradient {background: linear-gradient( 0deg, rgb(205 209 206 \/ 0%) 0%, rgb(205 209 206) 100% );}",
-        ".header__heading {position: absolute; top: 10px;}",
-        "@media only screen and (max-width: 750px) {.header__heading {position: relative; width: 80px; } .header {padding: 0px 15px 15px;}}"
+        ".header__heading,.header__heading-link {position: absolute; top: 10px;}",
+        "@media only screen and (max-width: 750px) {.header__heading, .header__heading-link{position: relative; width: 80px; } .header {padding: 0px 15px 15px; }}"
       ],
       "settings": {
         "logo_position": "middle-center",

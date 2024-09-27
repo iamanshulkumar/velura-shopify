@@ -146,7 +146,7 @@
                   {{ block.shopify_attributes }}
                   id="Inventory-{{ section.id }}"
                   role="status"
-                >
+                > Availability:
                   {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
                     {%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
                       {%- if product.selected_or_first_available_variant.inventory_quantity
