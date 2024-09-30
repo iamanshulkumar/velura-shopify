@@ -25,7 +25,8 @@
       "custom_css": [
         ".banner {margin-top: -150px;}",
         "h2 {font-size: 45px; font-weight: 900;}",
-        ".body p {color: #151515; font-family: \"Overlock\"; font-size: 18px; font-weight: 400;}"
+        ".body p {color: #151515; font-family: \"Overlock\"; font-size: 18px; font-weight: 400;}",
+        "@media (max-width: 480px) {.banner {margin-top: 0px; } h2 {font-size: 30px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img1.png",
@@ -34,11 +35,11 @@
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "main": {

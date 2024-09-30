@@ -32,7 +32,7 @@
       "custom_css": [
         ".gradient {background: linear-gradient( 0deg, rgb(205 209 206 \/ 0%) 0%, rgb(205 209 206) 100% );}",
         ".header__heading,.header__heading-link {position: absolute; top: 10px;}",
-        "@media only screen and (max-width: 750px) {.header__heading, .header__heading-link{position: relative; width: 80px; } .header {padding: 0px 15px 15px; }}"
+        "@media only screen and (max-width: 750px) {.header__heading, .header__heading-link {position: relative; width: 100px; top: 0px; } .header {padding: 0px 15px; } .gradient {background: #e5e5e5; }}"
       ],
       "settings": {
         "logo_position": "middle-center",

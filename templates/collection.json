@@ -25,7 +25,8 @@
       "custom_css": [
         ".banner {margin-top: -150px;}",
         "h2 {font-size: 45px; font-weight: 900;}",
-        ".body p {color: #151515; font-family: \"Overlock\"; font-size: 18px; font-weight: 400;}"
+        ".body p {color: #151515; font-family: \"Overlock\"; font-size: 18px; font-weight: 400;}",
+        "@media (max-width: 480px) {.banner {margin-top: 0px; } h2 {font-size: 30px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img1.png",
@@ -54,7 +55,7 @@
       "custom_css": [
         "h3 {font-weight: 900;}",
         "#FacetsWrapperDesktop {color: black;}",
-        ".card--card.card--media > .card__content {background-color: #E6EFE8; border-radius: 0 0 15px 15px;}"
+        ".card--card.card--media > .card__content {background-color: #e6efe8; border-radius: 0 0 15px 15px;}"
       ],
       "settings": {
         "products_per_page": 12,

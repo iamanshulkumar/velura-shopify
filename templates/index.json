@@ -31,16 +31,16 @@
         "h2 {font-weight: 900;}",
         ".banner__box {max-width: 46rem;}",
         ".button {background-image: linear-gradient(to right, #1d6148, #658b60); width: 224px; height: 45px;}",
-        "@media only screen and (max-width: 750px) {.banner {margin-top: 0px; }}"
+        "@media only screen and (max-width: 750px) {.banner {margin-top: 0px; } h2 {font-size: 32px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-banner.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -85,36 +85,30 @@
         "h2 {font-weight: 900; font-size: 32px; color: #035c82;}",
         ".banner__box {max-width: 50rem;}",
         ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px;}",
-        ".banner__text {font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}"
+        ".banner__text {font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}",
+        "@media only screen and (max-width: 750px) {h2 {font-size: 20px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner_2.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
-    "image_banner_kJM9yG": {
-      "type": "image-banner",
+    "custom_liquid_Nmazzt": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/all.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "custom_liquid": "<style>\n   .benefits-section {\n  position: relative;\n  text-align: center;\n  padding: 40px 20px;\n  background-color: #ffffff; \/* Fallback color *\/\n  overflow: hidden; \/* Ensures pseudo-element doesn't overflow *\/\n  z-index: 1; \/* Keeps the section above any background *\/\n}\n\n.benefits-section::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/concept-childrens-health-treatment-childrens-shoes-with-stethoscope-place-text_1.webp?v=1727681152');\n  background-size: cover; \n  background-position: left; \n  background-repeat: no-repeat;\n  z-index: -1; \n  mix-blend-mode: luminosity; \n}\n\n.benefits-section .benefits-wrapper {\n  position: relative;\n  z-index: 2;\n}\n\n.benefits-heading {\n  font-family: Overlock;\n  font-size: 32px;\n  font-weight: 900;\n  line-height: 43px;\n  text-align: center;\n  color: #035c82;\n  margin-bottom: 40px;\n}\n\n\/* Two rows layout for circles *\/\n.benefits-wrapper {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n\/* Rows *\/\n.benefit-row {\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  flex-wrap: wrap; \/* Allow wrapping for responsiveness *\/\n}\n\n\/* Circle container *\/\n.benefit-circle {\n  width: 150px;\n  height: 150px;\n  background-color: #eaf1eb;\n  border-radius: 50%;\n  border: 2px dashed #1d6148; \/* Dashed border *\/\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  padding: 10px;\n  box-sizing: border-box;\n}\n\n\/* Icon styling *\/\n.benefit-icon {\n  width: 40px;\n  height: 40px;\n  margin-bottom: 10px;\n}\n\n\/* Text inside the circle *\/\n.benefit-circle p {\n  color: #1d6148;\n  font-family: Tahoma;\n  font-size: 14px;\n  font-weight: 400;\n  line-height: 19px;\n  text-align: center;\nmargin: 0;\n}\n\/* Responsiveness for smaller devices *\/\n@media (max-width: 768px) {\n  .benefit-row {\n    flex-direction: row; \/* Maintain row direction *\/\n    justify-content: space-evenly; \/* Spread items evenly *\/\n  }\n\n  .benefit-circle {\n    width: 150px;\n    height: 150px;\n  }\n\n  .benefit-icon {\n    width: 50px;\n    height: 50px;\n  }\n\n  .benefit-circle p {\n    font-size: 14px;\n  }\n}\n\n@media (max-width: 480px) {\n  .benefit-row {\n    flex-direction: row; \/* Maintain row direction *\/\n    justify-content: space-evenly; \/* Spread items evenly *\/\n  }\n\n  .benefit-circle {\n    width: 145px;\n    height: 145px;\n  }\n\n  .benefit-icon {\n    width: 50px;\n    height: 50px;\n  }\n\n  .benefit-circle p {\n    font-size: 12px;\n  }\n}\n\n<\/style>\n\n<div class=\"benefits-section\">\n  <h2 class=\"benefits-heading\">Nurturing Little Ones with Nature's Goodness<\/h2>\n\n  <div class=\"benefits-wrapper\">\n    <!-- First Row with 4 Circles -->\n    <div class=\"benefit-row\">\n      <div class=\"benefit-item\">\n        <div class=\"benefit-circle\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/manuka.png?v=1727682704\" alt=\"manuka\" class=\"benefit-icon\" \/>\n          <p>India's First Baby Care with Manuka Honey<\/p>\n        <\/div>\n      <\/div>\n\n      <div class=\"benefit-item\">\n        <div class=\"benefit-circle\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/paediatrician.png?v=1727683010\" alt=\"Paediatrician\" class=\"benefit-icon\" \/>\n          <p>Developed by Paediatrician<\/p>\n        <\/div>\n      <\/div>\n\n      <div class=\"benefit-item\">\n        <div class=\"benefit-circle\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/baby-face.png?v=1727682703\" alt=\"Dermatologically\" class=\"benefit-icon\" \/>\n          <p>Dermatologically Tested<\/p>\n        <\/div>\n      <\/div>\n\n      \n      <div class=\"benefit-item\">\n        <div class=\"benefit-circle\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/pipette.png?v=1727682704\" alt=\"Icon 7\" class=\"benefit-icon\" \/>\n          <p>No Artificial Colours or Perfumes<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n\n    <!-- Second Row with 3 Circles -->\n    <div class=\"benefit-row\">\n      <div class=\"benefit-item\">\n        <div class=\"benefit-circle\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/leaf.png?v=1727682704\" alt=\"Natural\" class=\"benefit-icon\" \/>\n          <p>Safe, Natural Ingredients<\/p>\n        <\/div>\n      <\/div>\n      \n      <div class=\"benefit-item\">\n        <div class=\"benefit-circle\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/forbidden.png?v=1727682703\" alt=\"Chemicals\" class=\"benefit-icon\" \/>\n          <p>No Harmful Chemicals<\/p>\n        <\/div>\n      <\/div>\n\n      <div class=\"benefit-item\">\n        <div class=\"benefit-circle\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/6125\/9840\/files\/stamp.png?v=1727682703\" alt=\"Icon 6\" class=\"benefit-icon\" \/>\n          <p>FDA Approved<\/p>\n        <\/div>\n      <\/div>\n\n    <\/div>\n  <\/div>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collection_list_8mM9zr": {
@@ -170,8 +164,6 @@
         ".card:hover .card__heading {color: white !important;}",
         ".card:not(.ratio) > .card__content {grid-template-rows: none;}",
         ".card__information {padding: 1.3rem 3rem;}",
-        ".collection-list__item:nth-child(odd),.collection-list__item:nth-child(4),.collection-list__item:nth-child(6) {transform: translateY(40px) !important;}",
-        ".collection-list__item:nth-child(5) {transform: translateY(0px) !important;}",
         ".card:hover {background-color: #035c82bd;}"
       ],
       "settings": {
@@ -256,7 +248,8 @@
         "h2 {font-weight: 900; font-size: 60px; color: #035c82; line-height: 63px;}",
         ".banner__box {max-width: 38rem;}",
         ".banner__text {width: 50%; font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}",
-        ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px;}"
+        ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px;}",
+        "@media (max-width: 749px) {h2 {font-weight: 900; font-size: 30px; color: #035c82; line-height: 33px; } .banner__text {width: 100%; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Frame_1000002192_1.png",
@@ -264,12 +257,12 @@
         "image_height": "adapt",
         "desktop_content_position": "top-left",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "featured_blog_tKCVtW": {
@@ -279,13 +272,15 @@
         ".card:not(.ratio) {flex-direction: row;}",
         ".slider {max-width: fit-content;}",
         ".card__inner {border: 2px dashed #035c82;}",
-        ".card__information {background-color: #d2e4d6; border-radius: 10px; margin-left: 10px;}"
+        ".card__information {background-color: #d2e4d6; padding: 15px; border-radius: 10px 10px;}",
+        ".article-card__excerpt {font-size: 14px;}",
+        "@media (max-width: 749px) {.card:not(.ratio) {flex-direction: column; }}"
       ],
       "settings": {
         "heading": "Velura Insights: Our Latest Blog Posts",
         "heading_size": "h1",
         "blog": "news",
-        "post_limit": 4,
+        "post_limit": 3,
         "columns_desktop": 2,
         "color_scheme": "scheme-1",
         "show_image": true,
@@ -299,17 +294,17 @@
     "custom_liquid_TLG7WY": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"review-slider\">\n  <h2>Velura Reviews: <br> Hear From Happy Parents<\/h2>\n\n  <!-- Slider container -->\n  <div class=\"slider\">\n    <!-- Left arrow -->\n    <span class=\"arrow prev\" onclick=\"moveSlide(-1)\">&#10094;<\/span>\n\n    <!-- Review 1 -->\n    <div class=\"review-content\" style=\"display: block;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Velura's products are simply the best! The fabric quality is unmatched, and my entire family loves how soft and comfortable the bedding is. Highly recommended!”<\/p>\n      <p class=\"reviewer-name\">Priya Kapoor<\/p>\n    <\/div>\n\n    <!-- Review 2 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“I've been using Velura's eco-friendly bedding for months, and I couldn't be happier. Not only is it super comfortable, but knowing it's sustainably made makes me feel good about my purchase.”<\/p>\n      <p class=\"reviewer-name\">Rohit Sharma<\/p>\n    <\/div>\n\n    <!-- Review 3 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Absolutely love the intricate design and craftsmanship of Velura's products. They have transformed the look of my home. Great customer service too!”<\/p>\n      <p class=\"reviewer-name\">Anita Desai<\/p>\n    <\/div>\n\n    <!-- Right arrow -->\n    <span class=\"arrow next\" onclick=\"moveSlide(1)\">&#10095;<\/span>\n  <\/div>\n\n  <!-- Pagination Dots -->\n  <div class=\"dots\">\n    <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(3)\"><\/span>\n  <\/div>\n<\/div>\n\n<!-- CSS Styling -->\n<style>\n  .review-slider {\n    text-align: center;\n    padding: 40px;\n    font-family: Arial, sans-serif;\n  }\n\n  h2 {\n    color: #005370;\n    margin-bottom: 20px;\n  }\n\n  .slider {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    max-width: 600px;\n    margin: 0 auto;\n  }\n\n  .arrow {\n    cursor: pointer;\n    padding: 10px;\n    font-size: 24px;\n    color: #ccc;\n  }\n\n  .review-content {\n    max-width: 500px;\n    padding: 0 20px;\n  }\n\n  .stars {\n    color: #006446;\n    font-size: 18px;\n    margin-bottom: 10px;\n  }\n\n  .review-text {\n    font-size: 16px;\n    color: #555;\n    margin-bottom: 20px;\n    font-style: italic;\n  }\n\n  .reviewer-name {\n    font-weight: bold;\n    color: #006446;\n    font-size: 18px;\n  }\n\n  .dots {\n    margin-top: 10px;\n  }\n\n  .dot {\n    height: 12px;\n    width: 12px;\n    margin: 0 4px;\n    background-color: #ccc;\n    border-radius: 50%;\n    display: inline-block;\n    cursor: pointer;\n  }\n\n  .active, .dot:hover {\n    background-color: #006446;\n  }\n<\/style>\n\n<!-- JavaScript for Auto-Scroll and Slide Functionality -->\n<script>\n  var currentSlideIndex = 0;\n  var totalSlides = 3; \/\/ Hardcoded for 3 reviews\n\n  function moveSlide(direction) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex += direction;\n\n    if (currentSlideIndex >= totalSlides) {\n      currentSlideIndex = 0;\n    } else if (currentSlideIndex < 0) {\n      currentSlideIndex = totalSlides - 1;\n    }\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  function currentSlide(index) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex = index - 1;\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  \/\/ Auto-scroll function\n  function autoScroll() {\n    setInterval(function () {\n      moveSlide(1);\n    }, 4000); \/\/ Change slide every 4 seconds\n  }\n\n  \/\/ Initialize auto-scroll when the page loads\n  window.onload = function() {\n    autoScroll();\n  };\n<\/script>",
+        "custom_liquid": "<div class=\"review-slider\">\n  <h2>Velura Reviews: <br> Hear From Happy Parents<\/h2>\n\n  <!-- Slider container -->\n  <div class=\"slider\">\n    <!-- Left arrow -->\n    <span class=\"arrow prev\" onclick=\"moveSlide(-1)\">&#10094;<\/span>\n\n    <!-- Review 1 -->\n    <div class=\"review-content\" style=\"display: block;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Velura's Gentle Glow Baby Moisturising Lotion is simply the best! The product quality is unmatched, and my entire family loves how soft and hydrated our baby's skin feels. Highly recommended”<\/p>\n      <p class=\"reviewer-name\">Priya Kapoor<\/p>\n    <\/div>\n\n    <!-- Review 2 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">\"I've been using Velura's Splash Baby Body Wash for months, and I couldn't be happier. Not only does it leave my baby's skin feeling fresh and clean, but knowing it's made with gentle ingredients gives me peace of mind!\"<\/p>\n      <p class=\"reviewer-name\">Rohit Sharma<\/p>\n    <\/div>\n\n    <!-- Review 3 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">\"Using Velura's Silky Dust Kids Dusting Powder has made bath time so much easier! It keeps my child's skin soft and prevents irritation, and the scent is lovely!\"<\/p>\n      <p class=\"reviewer-name\">Anita Desai<\/p>\n    <\/div>\n\n    <!-- Right arrow -->\n    <span class=\"arrow next\" onclick=\"moveSlide(1)\">&#10095;<\/span>\n  <\/div>\n\n  <!-- Pagination Dots -->\n  <div class=\"dots\">\n    <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(3)\"><\/span>\n  <\/div>\n<\/div>\n\n<!-- CSS Styling -->\n<style>\n  .review-slider {\n    text-align: center;\n    padding: 40px 0;\n    font-family: Arial, sans-serif;\n  }\n\n  h2 {\n    color: #005370;\n    margin-bottom: 20px;\n  }\n\n  .slider {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    max-width: 600px;\n    margin: 0 auto;\n  }\n\n  .arrow {\n    cursor: pointer;\n    padding: 10px;\n    font-size: 24px;\n    color: #ccc;\n  }\n\n  .review-content {\n    max-width: 500px;\n    padding: 0 20px;\n  }\n\n  .stars {\n    color: #006446;\n    font-size: 18px;\n    margin-bottom: 10px;\n  }\n\n  .review-text {\n    font-size: 16px;\n    color: #555;\n    margin-bottom: 20px;\n    font-style: italic;\n  }\n\n  .reviewer-name {\n    font-weight: bold;\n    color: #006446;\n    font-size: 18px;\n  }\n\n  .dots {\n    margin-top: 10px;\n  }\n\n  .dot {\n    height: 12px;\n    width: 12px;\n    margin: 0 4px;\n    background-color: #ccc;\n    border-radius: 50%;\n    display: inline-block;\n    cursor: pointer;\n  }\n\n  .active, .dot:hover {\n    background-color: #006446;\n  }\n<\/style>\n\n<!-- JavaScript for Auto-Scroll and Slide Functionality -->\n<script>\n  var currentSlideIndex = 0;\n  var totalSlides = 3; \/\/ Hardcoded for 3 reviews\n\n  function moveSlide(direction) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex += direction;\n\n    if (currentSlideIndex >= totalSlides) {\n      currentSlideIndex = 0;\n    } else if (currentSlideIndex < 0) {\n      currentSlideIndex = totalSlides - 1;\n    }\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  function currentSlide(index) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex = index - 1;\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  \/\/ Auto-scroll function\n  function autoScroll() {\n    setInterval(function () {\n      moveSlide(1);\n    }, 4000); \/\/ Change slide every 4 seconds\n  }\n\n  \/\/ Initialize auto-scroll when the page loads\n  window.onload = function() {\n    autoScroll();\n  };\n<\/script>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "image_banner_UW3pfy",
     "image_banner_izBGpV",
-    "image_banner_kJM9yG",
+    "custom_liquid_Nmazzt",
     "collection_list_8mM9zr",
     "featured-collection-0",
     "image_banner_gL7VQh",

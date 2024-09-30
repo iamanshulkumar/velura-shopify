@@ -455,7 +455,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product__text {margin-bottom: 0; color: black;}"
+
     ]
   }
 }

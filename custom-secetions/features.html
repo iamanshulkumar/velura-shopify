@@ -1,0 +1,222 @@
+<style>
+.benefits-section {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff; /* Fallback color */
+    overflow: hidden; /* Ensures pseudo-element doesn't overflow */
+    z-index: 1; /* Keeps the section above any background */
+}
+
+.benefits-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0865/6125/9840/files/concept-childrens-health-treatment-childrens-shoes-with-stethoscope-place-text_1.webp?v=1727681152");
+    background-size: cover; /* Change to cover for better effect */
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    z-index: -1; /* Place it behind the content */
+    mix-blend-mode: luminosity; /* This will blend the color with the background */
+}
+
+.benefits-section .benefits-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.benefits-heading {
+    font-family: Overlock;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 43px;
+    text-align: center;
+    color: #035c82;
+    margin-bottom: 40px;
+}
+
+/* Two rows layout for circles */
+.benefits-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Rows */
+.benefit-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+}
+
+/* Circle container */
+.benefit-circle {
+    width: 150px;
+    height: 150px;
+    background-color: #eaf1eb;
+    border-radius: 50%;
+    border: 2px dashed #1d6148; /* Dashed border */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Icon styling */
+.benefit-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+/* Text inside the circle */
+.benefit-circle p {
+    color: #1d6148;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Responsiveness for smaller devices */
+@media (max-width: 768px) {
+    .benefit-row {
+    flex-direction: row; /* Maintain row direction */
+    justify-content: space-evenly; /* Spread items evenly */
+    }
+
+    .benefit-circle {
+    width: 150px;
+    height: 150px;
+    }
+
+    .benefit-icon {
+    width: 50px;
+    height: 50px;
+    }
+
+    .benefit-circle p {
+    font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .benefit-row {
+    flex-direction: row; /* Maintain row direction */
+    justify-content: space-evenly; /* Spread items evenly */
+    }
+
+    .benefit-circle {
+    width: 145px;
+    height: 145px;
+    }
+
+    .benefit-icon {
+    width: 50px;
+    height: 50px;
+    }
+
+    .benefit-circle p {
+    font-size: 12px;
+    }
+}
+</style>
+
+<div class="benefits-section">
+<h2 class="benefits-heading">Nurturing Little Ones with Nature's Goodness</h2>
+
+<div class="benefits-wrapper">
+    <!-- First Row with 4 Circles -->
+    <div class="benefit-row">
+    <div class="benefit-item">
+        <div class="benefit-circle">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0865/6125/9840/files/manuka.png?v=1727682704"
+            alt="manuka"
+            class="benefit-icon"
+        />
+        <p>India's First Baby Care with Manuka Honey</p>
+        </div>
+    </div>
+
+    <div class="benefit-item">
+        <div class="benefit-circle">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0865/6125/9840/files/paediatrician.png?v=1727683010"
+            alt="Paediatrician"
+            class="benefit-icon"
+        />
+        <p>Developed by Paediatrician</p>
+        </div>
+    </div>
+
+    <div class="benefit-item">
+        <div class="benefit-circle">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0865/6125/9840/files/baby-face.png?v=1727682703"
+            alt="Dermatologically"
+            class="benefit-icon"
+        />
+        <p>Dermatologically Tested</p>
+        </div>
+    </div>
+
+    <div class="benefit-item">
+        <div class="benefit-circle">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0865/6125/9840/files/pipette.png?v=1727682704"
+            alt="Icon 7"
+            class="benefit-icon"
+        />
+        <p>No Artificial Colours or Perfumes</p>
+        </div>
+    </div>
+    </div>
+
+    <!-- Second Row with 3 Circles -->
+    <div class="benefit-row">
+    <div class="benefit-item">
+        <div class="benefit-circle">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0865/6125/9840/files/leaf.png?v=1727682704"
+            alt="Natural"
+            class="benefit-icon"
+        />
+        <p>Safe, Natural Ingredients</p>
+        </div>
+    </div>
+
+    <div class="benefit-item">
+        <div class="benefit-circle">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0865/6125/9840/files/forbidden.png?v=1727682703"
+            alt="Chemicals"
+            class="benefit-icon"
+        />
+        <p>No Harmful Chemicals</p>
+        </div>
+    </div>
+
+    <div class="benefit-item">
+        <div class="benefit-circle">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0865/6125/9840/files/stamp.png?v=1727682703"
+            alt="Icon 6"
+            class="benefit-icon"
+        />
+        <p>FDA Approved</p>
+        </div>
+    </div>
+    </div>
+</div>
+</div>

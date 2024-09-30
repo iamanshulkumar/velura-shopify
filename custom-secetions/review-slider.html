@@ -1,0 +1,168 @@
+<div class="review-slider">
+  <h2>Velura Reviews: <br> Hear From Happy Parents</h2>
+
+  <!-- Slider container -->
+  <div class="slider">
+    <!-- Left arrow -->
+    <span class="arrow prev" onclick="moveSlide(-1)">&#10094;</span>
+
+    <!-- Review 1 -->
+    <div class="review-content" style="display: block;">
+      <div class="stars">
+        &#9733; &#9733; &#9733; &#9733; &#9733;
+      </div>
+      <p class="review-text">“Velura's Gentle Glow Baby Moisturising Lotion is simply the best! The product quality is unmatched, and my entire family loves how soft and hydrated our baby's skin feels. Highly recommended”</p>
+      <p class="reviewer-name">Priya Kapoor</p>
+    </div>
+
+    <!-- Review 2 -->
+    <div class="review-content" style="display: none;">
+      <div class="stars">
+        &#9733; &#9733; &#9733; &#9733; &#9733;
+      </div>
+      <p class="review-text">"I've been using Velura's Splash Baby Body Wash for months, and I couldn't be happier. Not only does it leave my baby's skin feeling fresh and clean, but knowing it's made with gentle ingredients gives me peace of mind!"</p>
+      <p class="reviewer-name">Rohit Sharma</p>
+    </div>
+
+    <!-- Review 3 -->
+    <div class="review-content" style="display: none;">
+      <div class="stars">
+        &#9733; &#9733; &#9733; &#9733; &#9733;
+      </div>
+      <p class="review-text">"Using Velura's Silky Dust Kids Dusting Powder has made bath time so much easier! It keeps my child's skin soft and prevents irritation, and the scent is lovely!"</p>
+      <p class="reviewer-name">Anita Desai</p>
+    </div>
+
+    <!-- Right arrow -->
+    <span class="arrow next" onclick="moveSlide(1)">&#10095;</span>
+  </div>
+
+  <!-- Pagination Dots -->
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</div>
+
+<!-- CSS Styling -->
+<style>
+  .review-slider {
+    text-align: center;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    color: #005370;
+    margin-bottom: 20px;
+  }
+
+  .slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .arrow {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    color: #ccc;
+  }
+
+  .review-content {
+    max-width: 500px;
+    padding: 0 20px;
+  }
+
+  .stars {
+    color: #006446;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .reviewer-name {
+    font-weight: bold;
+    color: #006446;
+    font-size: 18px;
+  }
+
+  .dots {
+    margin-top: 10px;
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .active, .dot:hover {
+    background-color: #006446;
+  }
+</style>
+
+<!-- JavaScript for Auto-Scroll and Slide Functionality -->
+<script>
+  var currentSlideIndex = 0;
+  var totalSlides = 3; // Hardcoded for 3 reviews
+
+  function moveSlide(direction) {
+    var slides = document.getElementsByClassName("review-content");
+    var dots = document.getElementsByClassName("dot");
+
+    slides[currentSlideIndex].style.display = "none";
+    dots[currentSlideIndex].classList.remove("active");
+
+    currentSlideIndex += direction;
+
+    if (currentSlideIndex >= totalSlides) {
+      currentSlideIndex = 0;
+    } else if (currentSlideIndex < 0) {
+      currentSlideIndex = totalSlides - 1;
+    }
+
+    slides[currentSlideIndex].style.display = "block";
+    dots[currentSlideIndex].classList.add("active");
+  }
+
+  function currentSlide(index) {
+    var slides = document.getElementsByClassName("review-content");
+    var dots = document.getElementsByClassName("dot");
+
+    slides[currentSlideIndex].style.display = "none";
+    dots[currentSlideIndex].classList.remove("active");
+
+    currentSlideIndex = index - 1;
+
+    slides[currentSlideIndex].style.display = "block";
+    dots[currentSlideIndex].classList.add("active");
+  }
+
+  // Auto-scroll function
+  function autoScroll() {
+    setInterval(function () {
+      moveSlide(1);
+    }, 4000); // Change slide every 4 seconds
+  }
+
+  // Initialize auto-scroll when the page loads
+  window.onload = function() {
+    autoScroll();
+  };
+</script>
