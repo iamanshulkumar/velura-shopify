@@ -1,1 +1,61 @@
-{"sections":{"main":{"type":"main-blog","settings":{"layout":"grid","show_image":true,"image_height":"medium","show_date":true,"show_author":false,"padding_top":60,"padding_bottom":60}}},"order":["main"]}
+{
+  "sections": {
+    "image_banner_dPfCc4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_3iabUg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Blog",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3iabUg"
+      ],
+      "custom_css": [
+        ".banner {margin-top: -150px;}",
+        "h2 {font-size: 45px; font-weight: 900;}",
+        ".body p {color: #151515; font-family: \"Overlock\"; font-size: 18px; font-weight: 400;}",
+        "@media (max-width: 480px) {.banner {margin-top: 0px; } h2 {font-size: 30px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "custom_css": [
+        "h3 {margin-inline: auto; font-weight: 900; font-size: 32px; line-height: 43px; color: #035c82;}",
+        ".card__inner {border: 2px dashed #035c82;}",
+        ".card__information {background-color: #d2e4d6; padding: 15px; border-radius: 10px 10px;}",
+        ".article-card__excerpt {font-size: 14px;}",
+        "@media (max-width: 749px) {.card:not(.ratio) {flex-direction: column; }}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "adapt",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_dPfCc4",
+    "main"
+  ]
+}

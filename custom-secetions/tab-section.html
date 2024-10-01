@@ -57,7 +57,7 @@
 #WP--{{ section.id }} .wbs-pck__tab-button-wrapper {
 	display: flex;
 	grid-gap: 4px;
-	justify-content: start;
+	justify-content: center;
 	align-items: flex-end;
 }
 
@@ -65,7 +65,6 @@
   border: none;
   transition: 0.3s ease;
   line-height: calc(3px + 2ex + 3px);
-  font-family: "Overlock";
   color: {{ section.settings.tab_label_color }};
   font-size: calc(var(--WP-g-small-heading-size, var(--WP-small-heading-size, 25px)) * {{ section.settings.text_size | times: 0.008 }});
   cursor: pointer;
@@ -94,8 +93,7 @@
 
 #WP--{{ section.id }} .wbs-pck_tab-style--small_tabs .wbs-pck__tab-title[aria-selected="true"]{
   background: {{ section.settings.tab_highlight_color }};
-	color: {{ section.settings.tab_label_highlight_color}};
-  font-weight: 900;
+	color: {{ section.settings.tab_label_highlight_color}}
 }
 
 #WP--{{ section.id }} .wbs-pck_tab-panel--small_tabs{
@@ -128,8 +126,7 @@
 
 #WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title[aria-selected="true"]{
   background: {{ section.settings.tab_background_color }};
-	color: {{ section.settings.tab_label_highlight_color}};
-  font-weight: 900;
+	color: {{ section.settings.tab_label_highlight_color}}
 }
 
 #WP--{{ section.id }} .wbs-pck_tab-style--big_tabs .wbs-pck__tab-title[aria-selected="true"]::after {
@@ -162,7 +159,6 @@
 #WP--{{ section.id }} .wbs-pck_tab-style--buttons .wbs-pck__tab-title[aria-selected="true"]{
   background: {{ section.settings.tab_highlight_color }};
 	color: {{ section.settings.tab_label_highlight_color}};
-  font-weight: 900;
 }
 
 #WP--{{ section.id }} .wbs-pck__tab-panel {
@@ -300,7 +296,7 @@
 </style>
 
 <section id="WP--{{ section.id }}" class="WP--{{ section.id }} wbs-pck__tabbed-content wbs-pck__section">
-  <div class="wbs-pck__sizer page-width">
+  <div class="wbs-pck__sizer">
     <div class="wbs-pck__wrapper">
     <div class="wbs-pck__tab-button-wrapper wbs-pck_tab-style--{{ section.settings.tab_style }}">
       {%- for tab in tabs -%}
@@ -809,13 +805,13 @@
       "type": "color",
       "id": "tab_label_color",
       "label": "Tab label",
-      "default": "#000000"
+      "default": "#14213D"
     },
     {
       "type": "color",
       "id": "tab_label_highlight_color",
       "label": "Tab highlighted label",
-      "default": "#000000"
+      "default": "#ffffff"
     },
     {
       "type": "color",
@@ -827,7 +823,7 @@
       "type": "color",
       "id": "tab_highlight_color",
       "label": "Tab highlight",
-      "default": "#ffffff"
+      "default": "#FCA311"
     },
     {
       "type": "color",
@@ -839,7 +835,7 @@
       "type": "color_background",
       "id": "background_color",
       "label": "Background",
-      "default": "white"
+      "default": "linear-gradient(360deg, rgba(229, 229, 229, 1), rgba(229, 229, 229, 1) 100%)"
     },
     {
       "type": "header",

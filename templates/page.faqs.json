@@ -1,0 +1,330 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_QnEAan": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_k3QD8w": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQs",
+            "heading_size": "h2"
+          }
+        },
+        "text_68C3Lw": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Home\/FAQs",
+            "text_style": "body"
+          }
+        },
+        "buttons_kQMhgk": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_k3QD8w",
+        "text_68C3Lw",
+        "buttons_kQMhgk"
+      ],
+      "custom_css": [
+        ".banner {margin-top: -150px;}",
+        "h2 {font-size: 45px; font-weight: 900;}",
+        ".body p {color: #151515; font-family: \"Overlock\"; font-size: 18px; font-weight: 400;}",
+        "@media (max-width: 480px) {.banner {margin-top: 0px; } h2 {font-size: 30px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "collapsible_content_6Rheip": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Gy3g98": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Oyle Baby Massage Oil used for?",
+            "icon": "question_mark",
+            "row_content": "<p>It strengthens bones and muscles, aids in skin healing, and promotes restful sleep.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DmHpi8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the key ingredients in Oyle Baby Massage Oil?",
+            "icon": "question_mark",
+            "row_content": "<p>Turmeric Oil, Manuka Oil, Chamomile Oil, Sweet Almond Oil, A2 Ghee, and Lajjalu Oil.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_664Ga7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Oyle Baby Massage Oil benefit my baby?",
+            "icon": "question_mark",
+            "row_content": "<p>It boosts muscle and bone strength, soothes skin, and promotes healthy circulation.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_x7gznP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is daily massage important for babies?",
+            "icon": "question_mark",
+            "row_content": "<p>It supports organ development, reduces colic, boosts brain development, and strengthens the immune system.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aDB6N7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Oyle Baby Massage Oil free from harsh chemicals?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, it’s free from sulfates, parabens, and phthalates.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aMaWYf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does Gentle Glow Baby Moisturising Lotion do?",
+            "icon": "question_mark",
+            "row_content": "<p>It keeps the baby’s skin moisturized and protected all day long.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UwGwxz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the main ingredients in Gentle Glow Baby Moisturising Lotion?",
+            "icon": "question_mark",
+            "row_content": "<p>Manuka Honey, Macadamia Oil, Coconut Oil, Almond Oil, Mango Butter, Pumpkin Seed Butter, Avocado Oil, Olive Oil, Shea Butter, Chamomile Extract.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fx7cz7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Gentle Glow Baby Moisturising Lotion benefit a baby’s skin?",
+            "icon": "question_mark",
+            "row_content": "<p>It soothes, nourishes, and provides exceptional softness and hydration.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zNfYer": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Gentle Glow Baby Moisturising Lotion hypoallergenic?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, it is hypoallergenic and free from parabens, sulfates, and phthalates.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Tpw73x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Splash Body Wash used for?",
+            "icon": "question_mark",
+            "row_content": "<p>It gently cleanses and nourishes your baby’s skin.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_biQ9Lw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ingredients are in Splash Body Wash?",
+            "icon": "question_mark",
+            "row_content": "<p>Manuka Honey, Chamomile Oil, Lavender Oil, Sweet Almond Oil, Macadamia Oil, Oatmeal Extract, Blackcurrant Oil, and Olive Oil.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KA8e8Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Splash Body Wash benefit a baby’s skin?",
+            "icon": "question_mark",
+            "row_content": "<p>It calms sensitive skin, provides hydration, and enhances the skin’s moisture barrier.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jwHVET": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I use Splash Body Wash?",
+            "icon": "question_mark",
+            "row_content": "<p>Wet the skin, apply a small amount, lather gently, rinse, and pat dry.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eDkpeJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Kare Baby Bathing Bar special?",
+            "icon": "question_mark",
+            "row_content": "<p>It’s formulated with natural ingredients to keep skin soft and smooth.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9ypVNc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the main ingredients in Kare Baby Bathing Bar?",
+            "icon": "question_mark",
+            "row_content": "<p>Goat’s Milk, Shea Butter, Lanolin, Manuka Honey, Aloe Vera, Syndet Base.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9nKqmA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Kare Baby Bathing Bar benefit the baby’s skin?",
+            "icon": "question_mark",
+            "row_content": "<p>It locks in moisture, soothes, and nourishes while promoting new cell development.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KPfCpC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I use Kare Baby Bathing Bar?",
+            "icon": "question_mark",
+            "row_content": "<p>Wet the skin, lather the bar, cleanse, rinse, and pat dry.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Qf489w": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does Rash Cure Diaper Rash Cream do?",
+            "icon": "question_mark",
+            "row_content": "<p>It soothes, heals, and protects against diaper rash.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aRye76": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the key ingredients in Rash Cure Diaper Rash Cream?",
+            "icon": "question_mark",
+            "row_content": "<p>Manuka Honey, Wheatgerm Oil, Jojoba Oil, Milk Protein, Zinc Oxide, Calendula Oil, Chamomile Oil, Olive Oil, Beeswax.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GVjTYq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I apply Rash Cure Diaper Rash Cream?",
+            "icon": "question_mark",
+            "row_content": "<p>Clean the area, apply a thin layer, and reapply at each diaper change for relief.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FxNqwj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the Velura Tummy Care Tummy Roll-On safe for newborns?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, the Velura Tummy Care Tummy Roll-On is formulated with natural, gentle ingredients like Hing Oil, Fennel Oil, and Ginger Oil, making it safe for newborns. It provides quick relief from colic, gas, and bloating while being soothing to your baby’s sensitive skin. <br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wCPU8Y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "At what age can I start using the Velura Tiny Teeth Baby Toothbrush?",
+            "icon": "question_mark",
+            "row_content": "<p>The Velura Tiny Teeth Baby Toothbrush is suitable for babies as soon as their first tooth appears, typically around 6 months of age. The soft, eco-friendly bamboo bristles provide gentle cleaning for your baby’s sensitive gums and teeth.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H7FmPw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the Velura Cozy Comb Baby Hair Comb safe for my baby’s sensitive scalp?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, the Velura Cozy Comb Baby Hair Comb is designed with soft, non-scratch bamboo and neem teeth, making it ideal for gently detangling and grooming your baby’s delicate hair without causing discomfort.<br\/><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Gy3g98",
+        "collapsible_row_DmHpi8",
+        "collapsible_row_664Ga7",
+        "collapsible_row_x7gznP",
+        "collapsible_row_aDB6N7",
+        "collapsible_row_aMaWYf",
+        "collapsible_row_UwGwxz",
+        "collapsible_row_fx7cz7",
+        "collapsible_row_zNfYer",
+        "collapsible_row_Tpw73x",
+        "collapsible_row_biQ9Lw",
+        "collapsible_row_KA8e8Q",
+        "collapsible_row_jwHVET",
+        "collapsible_row_eDkpeJ",
+        "collapsible_row_9ypVNc",
+        "collapsible_row_9nKqmA",
+        "collapsible_row_KPfCpC",
+        "collapsible_row_Qf489w",
+        "collapsible_row_aRye76",
+        "collapsible_row_GVjTYq",
+        "collapsible_row_FxNqwj",
+        "collapsible_row_wCPU8Y",
+        "collapsible_row_H7FmPw"
+      ],
+      "custom_css": [
+        "h3 {font-family: \"Overlock\"; font-size: 18px; font-weight: 900; line-height: 28px; color: #515151;}",
+        "p {font-family: Tahoma; font-size: 16px; font-weight: 400; line-height: 29px; color: #1d6148;}",
+        ".accordion {margin-top: 0; background: linear-gradient(0deg, #f3fff1 0%, #ffffff 100%);}",
+        "@media (max-width: 749px) {h3 {font-size: 16px; line-height: 20px; } p {font-size: 14px; line-height: 20px; }}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_QnEAan",
+    "collapsible_content_6Rheip"
+  ]
+}

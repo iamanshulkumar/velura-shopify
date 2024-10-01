@@ -30,8 +30,8 @@
         ".banner {margin-top: -150px;}",
         "h2 {font-weight: 900;}",
         ".banner__box {max-width: 46rem;}",
-        ".button {background-image: linear-gradient(to right, #1d6148, #658b60); width: 224px; height: 45px;}",
-        "@media only screen and (max-width: 750px) {.banner {margin-top: 0px; } h2 {font-size: 32px; }}"
+        ".button {background-image: linear-gradient(to right, #1d6148, #658b60); width: 224px; height: 45px; font-family: Tahoma;}",
+        "@media only screen and (max-width: 750px) {.banner {margin-top: 0px; } .banner__box {width: 75%; } .banner__content {justify-content: start; } h2 {font-size: 20px; } .button {width: 14px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-banner.png",
@@ -42,7 +42,7 @@
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
@@ -84,8 +84,8 @@
       "custom_css": [
         "h2 {font-weight: 900; font-size: 32px; color: #035c82;}",
         ".banner__box {max-width: 50rem;}",
-        ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px;}",
-        ".banner__text {font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}",
+        ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px; font-family: Tahoma;}",
+        ".banner__text p {font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}",
         "@media only screen and (max-width: 750px) {h2 {font-size: 20px; }}"
       ],
       "settings": {
@@ -246,9 +246,9 @@
       ],
       "custom_css": [
         "h2 {font-weight: 900; font-size: 60px; color: #035c82; line-height: 63px;}",
-        ".banner__box {max-width: 38rem;}",
-        ".banner__text {width: 50%; font-size: 14px; font-weight: 400; line-height: 22px; color: #666666;}",
-        ".button {font-size: 14px; line-height: 22px; color: #666666; width: 224px; border: 2px;}",
+        ".banner__box {max-width: 38rem; text-align: left;}",
+        ".banner__text {width: 100%; font-size: 14px; font-weight: 400; color: #666666;}",
+        ".button {font-size: 14px; color: #666666; width: 224px; border: 2px; font-family: Tahoma;}",
         "@media (max-width: 749px) {h2 {font-weight: 900; font-size: 30px; color: #035c82; line-height: 33px; } .banner__text {width: 100%; }}"
       ],
       "settings": {
@@ -260,7 +260,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -293,6 +293,9 @@
     },
     "custom_liquid_TLG7WY": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".review-text {font-family: Tahoma;}"
+      ],
       "settings": {
         "custom_liquid": "<div class=\"review-slider\">\n  <h2>Velura Reviews: <br> Hear From Happy Parents<\/h2>\n\n  <!-- Slider container -->\n  <div class=\"slider\">\n    <!-- Left arrow -->\n    <span class=\"arrow prev\" onclick=\"moveSlide(-1)\">&#10094;<\/span>\n\n    <!-- Review 1 -->\n    <div class=\"review-content\" style=\"display: block;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">“Velura's Gentle Glow Baby Moisturising Lotion is simply the best! The product quality is unmatched, and my entire family loves how soft and hydrated our baby's skin feels. Highly recommended”<\/p>\n      <p class=\"reviewer-name\">Priya Kapoor<\/p>\n    <\/div>\n\n    <!-- Review 2 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">\"I've been using Velura's Splash Baby Body Wash for months, and I couldn't be happier. Not only does it leave my baby's skin feeling fresh and clean, but knowing it's made with gentle ingredients gives me peace of mind!\"<\/p>\n      <p class=\"reviewer-name\">Rohit Sharma<\/p>\n    <\/div>\n\n    <!-- Review 3 -->\n    <div class=\"review-content\" style=\"display: none;\">\n      <div class=\"stars\">\n        &#9733; &#9733; &#9733; &#9733; &#9733;\n      <\/div>\n      <p class=\"review-text\">\"Using Velura's Silky Dust Kids Dusting Powder has made bath time so much easier! It keeps my child's skin soft and prevents irritation, and the scent is lovely!\"<\/p>\n      <p class=\"reviewer-name\">Anita Desai<\/p>\n    <\/div>\n\n    <!-- Right arrow -->\n    <span class=\"arrow next\" onclick=\"moveSlide(1)\">&#10095;<\/span>\n  <\/div>\n\n  <!-- Pagination Dots -->\n  <div class=\"dots\">\n    <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <span class=\"dot\" onclick=\"currentSlide(3)\"><\/span>\n  <\/div>\n<\/div>\n\n<!-- CSS Styling -->\n<style>\n  .review-slider {\n    text-align: center;\n    padding: 40px 0;\n    font-family: Arial, sans-serif;\n  }\n\n  h2 {\n    color: #005370;\n    margin-bottom: 20px;\n  }\n\n  .slider {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    max-width: 600px;\n    margin: 0 auto;\n  }\n\n  .arrow {\n    cursor: pointer;\n    padding: 10px;\n    font-size: 24px;\n    color: #ccc;\n  }\n\n  .review-content {\n    max-width: 500px;\n    padding: 0 20px;\n  }\n\n  .stars {\n    color: #006446;\n    font-size: 18px;\n    margin-bottom: 10px;\n  }\n\n  .review-text {\n    font-size: 16px;\n    color: #555;\n    margin-bottom: 20px;\n    font-style: italic;\n  }\n\n  .reviewer-name {\n    font-weight: bold;\n    color: #006446;\n    font-size: 18px;\n  }\n\n  .dots {\n    margin-top: 10px;\n  }\n\n  .dot {\n    height: 12px;\n    width: 12px;\n    margin: 0 4px;\n    background-color: #ccc;\n    border-radius: 50%;\n    display: inline-block;\n    cursor: pointer;\n  }\n\n  .active, .dot:hover {\n    background-color: #006446;\n  }\n<\/style>\n\n<!-- JavaScript for Auto-Scroll and Slide Functionality -->\n<script>\n  var currentSlideIndex = 0;\n  var totalSlides = 3; \/\/ Hardcoded for 3 reviews\n\n  function moveSlide(direction) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex += direction;\n\n    if (currentSlideIndex >= totalSlides) {\n      currentSlideIndex = 0;\n    } else if (currentSlideIndex < 0) {\n      currentSlideIndex = totalSlides - 1;\n    }\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  function currentSlide(index) {\n    var slides = document.getElementsByClassName(\"review-content\");\n    var dots = document.getElementsByClassName(\"dot\");\n\n    slides[currentSlideIndex].style.display = \"none\";\n    dots[currentSlideIndex].classList.remove(\"active\");\n\n    currentSlideIndex = index - 1;\n\n    slides[currentSlideIndex].style.display = \"block\";\n    dots[currentSlideIndex].classList.add(\"active\");\n  }\n\n  \/\/ Auto-scroll function\n  function autoScroll() {\n    setInterval(function () {\n      moveSlide(1);\n    }, 4000); \/\/ Change slide every 4 seconds\n  }\n\n  \/\/ Initialize auto-scroll when the page loads\n  window.onload = function() {\n    autoScroll();\n  };\n<\/script>",
         "color_scheme": "",

@@ -31,6 +31,9 @@
       "type": "header",
       "custom_css": [
         ".gradient {background: linear-gradient( 0deg, rgb(205 209 206 \/ 0%) 0%, rgb(205 209 206) 100% );}",
+        "a {font-size: 14px; font-family: Tahoma; color: black;}",
+        "a:hover {font-weight: 600; color: #658B60;}",
+        ".header__active-menu-item {font-weight: 600; color: #658B60;}",
         ".header__heading,.header__heading-link {position: absolute; top: 10px;}",
         "@media only screen and (max-width: 750px) {.header__heading, .header__heading-link {position: relative; width: 100px; top: 0px; } .header {padding: 0px 15px; } .gradient {background: #e5e5e5; }}"
       ],

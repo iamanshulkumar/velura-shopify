@@ -3675,7 +3675,7 @@ details-disclosure > details {
   position: relative;
   background-image: url(https://cdn.shopify.com/s/files/1/0865/6125/9840/files/footer_bg.jpg?v=1727341356);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   padding: 50px 100px;
 }
@@ -3826,7 +3826,7 @@ details-disclosure > details {
   .site-footer {
     padding: 40px 50px;
   }
-
+  
   .footer-column {
     width: 25%;
   }
@@ -3869,6 +3869,7 @@ details-disclosure > details {
 @media (max-width: 480px) {
   .site-footer {
     padding: 20px 20px;
+    background-position: left;
   }
 
   .footer-column {
