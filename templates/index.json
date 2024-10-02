@@ -126,10 +126,10 @@
             "collection": "treatments"
           }
         },
-        "featured_collection_Aj8z8d": {
+        "featured_collection_Yzd9wW": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tummy-roll"
+            "collection": "baby-comfort-relief"
           }
         },
         "featured_collection_MwTCPJ": {
@@ -144,20 +144,34 @@
             "collection": "baby-skincare-essentials"
           }
         },
-        "featured_collection_Yzd9wW": {
+        "featured_collection_tbcqPe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "baby-comfort-relief"
+            "collection": "cozy-comb"
+          }
+        },
+        "featured_collection_CCnU4R": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skin-hygiene"
+          }
+        },
+        "featured_collection_Aj8z8d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tummy-roll"
           }
         }
       },
       "block_order": [
         "featured_collection_4eRfHk",
         "featured_collection_WktHwB",
-        "featured_collection_Aj8z8d",
+        "featured_collection_Yzd9wW",
         "featured_collection_MwTCPJ",
         "featured_collection_b3f3dV",
-        "featured_collection_Yzd9wW"
+        "featured_collection_tbcqPe",
+        "featured_collection_CCnU4R",
+        "featured_collection_Aj8z8d"
       ],
       "custom_css": [
         "h2 {margin-inline: auto; font-weight: 900; font-size: 32px; line-height: 43px;}",
@@ -170,7 +184,7 @@
         "title": "Velura’s Complete Care for Your Baby",
         "heading_size": "h2",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "scheme-4",
         "show_view_all": false,
         "columns_mobile": "2",

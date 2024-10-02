@@ -62,7 +62,7 @@
 }
 
 #WP--{{ section.id }} .wbs-pck__tab-title {
-  border: none;
+  border: 2px solid #ffffff;
   transition: 0.3s ease;
   line-height: calc(3px + 2ex + 3px);
   font-family: "Overlock";
@@ -82,10 +82,11 @@
 
 #WP--{{ section.id }} .wbs-pck_tab-style--small_tabs .wbs-pck__tab-title {
   position: relative;
-  border: none;
+  border: 2px solid #ffffff;
 	border-radius: 6px 6px 0 0;
   background: transparent;
   padding: 1.5rem;
+  font-weight: 900;
 }
 
 #WP--{{ section.id }} .wbs-pck_tab-style--small_tabs .wbs-pck__tab-title:hover {
@@ -95,7 +96,7 @@
 #WP--{{ section.id }} .wbs-pck_tab-style--small_tabs .wbs-pck__tab-title[aria-selected="true"]{
   background: {{ section.settings.tab_highlight_color }};
 	color: {{ section.settings.tab_label_highlight_color}};
-  font-weight: 900;
+  border-bottom: 2px solid {{ section.settings.tab_label_highlight_color}};
 }
 
 #WP--{{ section.id }} .wbs-pck_tab-panel--small_tabs{
@@ -107,6 +108,7 @@
 	border-radius: 6px 6px 0 0;
   background: transparent;
   padding: 1.5rem;
+  font-weight: 900;
 	padding-bottom: calc(1.5rem + 4px);
 	width: calc(100% / {{tab_count}} );
 }
@@ -183,11 +185,11 @@
 
 #WP--{{ section.id }} .wbs-pck__rte p,
 #WP--{{ section.id }} .wbs-pck__rte ul {
-  line-height: calc(3px + 2.5ex + 3px);
-  color: {{ section.settings.text_color }};
-  font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.01 }});
+  line-height: 29px;
+  color: #666666;
+  font-size: 16px;
+  font-family: "Tahoma";
   {%- if section.settings.override_theme_font != blank -%}
-  font-family: var(--main-font);
   font-weight: var(--main-font-weight);
   font-style: var(--main-font-style);
   {%- endif -%}
@@ -451,7 +453,7 @@
                 border: thin solid {{ section.settings.text_color }};
                 color: {{ section.settings.text_color }};
                 {%- if section.settings.override_theme_font != blank -%}
-                font-family: var(--main-font);
+                font-family: "Overlock";
                 font-weight: var(--main-font-weight);
                 font-style: var(--main-font-style);
                 {%- endif -%}
@@ -480,7 +482,7 @@
                 opacity: 0.6;
                 color: {{ section.settings.text_color }};
                 {%- if section.settings.override_theme_font != blank -%}
-                font-family: var(--main-font);
+                font-family: "Overlock";
                 font-weight: var(--main-font-weight);
                 font-style: var(--main-font-style);
                 {%- endif -%}
@@ -497,7 +499,7 @@
                 border-color: {%- if button_alpha != 0 -%}{{ block.settings.button_background_color }}{%- else -%}{{ block.settings.button_label_color }}{%- endif -%};
                 background-color: {{ block.settings.button_background_color }};
                 {%- if section.settings.override_theme_font != blank -%}
-                font-family: var(--main-font);
+                font-family: "Overlock";
                 font-weight: var(--main-font-weight);
                 font-style: var(--main-font-style);
                 {%- endif -%}
@@ -648,7 +650,7 @@
                 line-height: calc(3px + 2ex + 3px);
                 font-size: calc(var(--WP-g-body-size, var(--WP-body-size, 18px)) * {{ section.settings.text_size | times: 0.01 }});
                 {%- if section.settings.override_theme_font != blank -%}
-                font-family: var(--main-font);
+                font-family: "Overlock";
                 font-weight: var(--main-font-weight);
                 font-style: var(--main-font-style);
                 {%- endif -%}
@@ -711,7 +713,7 @@
 
               .wbs-pck__block-id-{{ block.id }} .wbs-pck__divider {
                 height: 0;
-                border: none;
+                border: 2px solid #ffffff;
                 background: transparent;
                 {%- if section.settings.text_alignment == 'left' -%}
                   margin: 0;

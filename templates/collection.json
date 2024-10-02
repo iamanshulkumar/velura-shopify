@@ -44,9 +44,13 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".collection-hero__image-container img {width: 30%;}",
+        ".collection-hero__text-wrapper {text-align: center;}"
+      ],
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "color_scheme": "scheme-1"
       }
     },

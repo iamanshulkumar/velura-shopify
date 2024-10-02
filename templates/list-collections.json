@@ -1,1 +1,142 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/slide1.png","heading":"","heading_size":"h2","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-left","show_text_box":false,"text_alignment":"center","image_overlay_opacity":10,"color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","text_alignment_mobile":"left"}}},"block_order":["slide"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"rich-text-1":{"type":"rich-text","blocks":{"heading_G3KyXn":{"type":"heading","settings":{"heading":"Velura's Baby Care Collection","heading_size":"h2"}}},"block_order":["heading_G3KyXn"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-6a09e88e-ab04-4a22-a6ba-b0468c600e3b","full_width":true,"padding_top":20,"padding_bottom":20}},"main":{"type":"main-list-collections","settings":{"title":"","sort":"alphabetical","image_ratio":"portrait","columns_desktop":4,"columns_mobile":"1"}}},"order":["slideshow","rich-text-1","main"]}
+{
+  "sections": {
+    "image_banner_PGN4dy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ygJNmp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Collection",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ygJNmp"
+      ],
+      "custom_css": [
+        ".banner {margin-top: -150px;}",
+        "h2 {font-size: 45px; font-weight: 900;}",
+        "@media (max-width: 480px) {.banner {margin-top: 0px; } h2 {font-size: 30px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "custom_css": [
+        ".card:hover .card__heading {color: white !important;}",
+        ".card:not(.ratio) > .card__content {grid-template-rows: none;}",
+        ".card__information {padding: 1.3rem 3rem;}",
+        ".card:hover {background-color: #035c82bd;}"
+      ],
+      "settings": {
+        "title": "",
+        "sort": "products_high",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "columns_mobile": "1"
+      }
+    },
+    "collection_list_MgrfCb": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_6xgKtQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moisturisers"
+          }
+        },
+        "featured_collection_Ke9qTY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "treatments"
+          }
+        },
+        "featured_collection_ApkUKw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-comfort-relief"
+          }
+        },
+        "featured_collection_VXMdTj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cleansers"
+          }
+        },
+        "featured_collection_DB64Wq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-skincare-essentials"
+          }
+        },
+        "featured_collection_3c7CDw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tummy-roll"
+          }
+        },
+        "featured_collection_3BzXVb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cozy-comb"
+          }
+        },
+        "featured_collection_erJqdp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skin-hygiene"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_6xgKtQ",
+        "featured_collection_Ke9qTY",
+        "featured_collection_ApkUKw",
+        "featured_collection_VXMdTj",
+        "featured_collection_DB64Wq",
+        "featured_collection_3c7CDw",
+        "featured_collection_3BzXVb",
+        "featured_collection_erJqdp"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin-inline: auto; font-weight: 900; font-size: 32px; line-height: 43px;}",
+        ".card:hover .card__heading {color: #075b7e !important;}",
+        ".card:not(.ratio) > .card__content {grid-template-rows: none;}",
+        ".card__information {padding: 1.3rem 3rem;}",
+        ".card:hover {background-color: #e8f3f5;}",
+        ".card:not(.ratio) {background-color: #f7fdff;}"
+      ],
+      "settings": {
+        "title": "Velura's Baby Care Collection",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-b538f9f0-0efd-4999-ac69-c1d64c4b9224",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "image_banner_PGN4dy",
+    "main",
+    "collection_list_MgrfCb"
+  ]
+}

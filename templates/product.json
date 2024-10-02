@@ -5,13 +5,15 @@
       "blocks": {
         "heading_nB66iP": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "<strong>Products<\/strong>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "text_3c6TzH": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"\/\" title=\"\/\">Home<\/a> \/ Products",
             "text_style": "body"
@@ -189,11 +191,11 @@
       "settings": {
         "text_size": 100,
         "tab_style": "small_tabs",
-        "tab_label_color": "#1D6148",
-        "tab_label_highlight_color": "#1D6148",
+        "tab_label_color": "#1d6148",
+        "tab_label_highlight_color": "#1d6148",
         "tab_background_color": "#ffffff",
         "tab_highlight_color": "#ffffff",
-        "text_color": "#14213D",
+        "text_color": "#14213d",
         "background_color": "white",
         "base_width": 95,
         "max_width": "",
