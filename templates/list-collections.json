@@ -83,12 +83,6 @@
             "collection": "baby-skincare-essentials"
           }
         },
-        "featured_collection_3c7CDw": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tummy-roll"
-          }
-        },
         "featured_collection_3BzXVb": {
           "type": "featured_collection",
           "settings": {
@@ -100,6 +94,12 @@
           "settings": {
             "collection": "skin-hygiene"
           }
+        },
+        "featured_collection_3c7CDw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tummy-roll"
+          }
         }
       },
       "block_order": [
@@ -108,9 +108,9 @@
         "featured_collection_ApkUKw",
         "featured_collection_VXMdTj",
         "featured_collection_DB64Wq",
-        "featured_collection_3c7CDw",
         "featured_collection_3BzXVb",
-        "featured_collection_erJqdp"
+        "featured_collection_erJqdp",
+        "featured_collection_3c7CDw"
       ],
       "custom_css": [
         "h2 {text-align: center; margin-inline: auto; font-weight: 900; font-size: 32px; line-height: 43px;}",
