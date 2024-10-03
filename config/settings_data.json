@@ -157,6 +157,15 @@
           "css_selector": "",
           "custom_css": ""
         }
+      },
+      "10875317227295355533": {
+        "type": "shopify:\/\/apps\/simplebundle\/blocks\/bundle_options\/ec3fca7a-00ff-426d-ac7c-5f640fb4c8a4",
+        "disabled": false,
+        "settings": {
+          "option_display": "pills",
+          "custom_css": "",
+          "custom_js": ""
+        }
       }
     },
     "color_schemes": {

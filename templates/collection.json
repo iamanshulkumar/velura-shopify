@@ -46,7 +46,9 @@
       "type": "main-collection-banner",
       "custom_css": [
         ".collection-hero__image-container img {width: 30%;}",
-        ".collection-hero__text-wrapper {text-align: center;}"
+        ".collection-hero__text-wrapper {text-align: center;}",
+        "@media only screen and (max-width: 749px) {.collection-hero__image-container img {width: 50%; left: 25%; }}",
+        ".media>img {object-fit: contain;}"
       ],
       "settings": {
         "show_collection_description": true,

@@ -135,9 +135,9 @@
         ".product__title {border-bottom: 3px solid #d9e6dc;}",
         ".product__description {color: black;}",
         ".product__inventory,.form__label {color: black; font-size: 18px; font-weight: 600; margin-right: 15px;}",
-        ".price-item.price-item--regular {font-size: 18px; font-weight: 900; line-height: 18px; color: #774609;}",
-        ".price-item.price-item--sale {font-size: 30px; font-weight: 900; line-height: 30px; color: #035c82;}",
-        ".product-form__input {display: flex; align-items: center;}"
+        ".product-form__input {display: flex; align-items: center;}",
+        ".price__sale .price-item--regular {font-size: 18px; font-weight: 900; line-height: 18px; color: #774609;}",
+        ".price-item {font-size: 30px; font-weight: 900; line-height: 30px; color: #035c82;}"
       ],
       "settings": {
         "enable_sticky_info": true,

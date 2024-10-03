@@ -34,8 +34,8 @@
         "a {font-size: 14px; font-family: Tahoma; color: black;}",
         "a:hover {font-weight: 600; color: #658b60;}",
         ".header__active-menu-item {font-weight: 600; color: #658b60;}",
-        ".header__heading,.header__heading-link img {position: absolute; top: 10px; right: 40%;}",
-        "@media only screen and (max-width: 750px) {.header__heading, .header__heading-link img {position: relative; width: 100px; top: 0px; right: 10%; } .header {padding: 0px 15px; } .gradient {background: #e5e5e5; }}"
+        ".header__heading-link {position: absolute; top: 10px; right: 46%;}",
+        "@media only screen and (max-width: 750px) {.header__heading-link {position: relative; top: 0px; left: 0%; } .header {padding: 0px 15px; } .gradient {background: #e5e5e5; } .header__heading-logo-wrapper {width: 75px; }}"
       ],
       "settings": {
         "logo_position": "middle-center",

@@ -171,7 +171,7 @@
   width: 100%;
   margin: auto;
   background: {{ section.settings.tab_background_color }};
-  padding: 1.5em;
+  padding: 0.5em;
 }
 
 #WP--{{ section.id }} .wbs-pck__tab-panel[aria-hidden="false"] {
@@ -251,8 +251,8 @@
     max-width: {{ max_width }};
     padding-top: {{ section.settings.inner_padding | divided_by: 2 }}px;
     padding-bottom: {{ section.settings.inner_padding | divided_by: 2 }}px;
-    padding-left: {{ section.settings.inner_padding | divided_by: 2 }}px;
-    padding-right: {{ section.settings.inner_padding | divided_by: 2 }}px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 	#WP--{{ section.id }} .wbs-pck__tab-button-wrapper {

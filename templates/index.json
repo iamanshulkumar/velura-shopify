@@ -60,7 +60,7 @@
         "text_zpfjpi": {
           "type": "text",
           "settings": {
-            "text": "Velura is a paediatrician-owned baby care brand dedicated to providing the purest, most gentle care for your little one. Combining medical expertise with a commitment to natural ingredients, Velura offers a range of products designed to nourish, protect, and soothe delicate baby skin.",
+            "text": "Velura is a paediatrician-developed baby care brand dedicated to providing the purest, most gentle care for your little one. Combining medical expertise with a commitment to natural ingredients, Velura offers a range of products designed to nourish, protect, and soothe delicate baby skin.",
             "text_style": "body"
           }
         },
@@ -245,7 +245,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Buy Now",
-            "button_link_1": "shopify:\/\/products\/velura-gentle-glow-baby-moisturising-lotion",
+            "button_link_1": "shopify:\/\/products\/velura-gentle-glow-baby-moisturising-lotion-200-ml",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",

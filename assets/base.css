@@ -3943,3 +3943,7 @@ details-disclosure > details {
 em {
   font-family: "Overlock";
 }
+
+.active, .dot:hover {
+  background-color: #00644640;
+}
