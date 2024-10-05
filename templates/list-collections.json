@@ -68,7 +68,7 @@
         "featured_collection_ApkUKw": {
           "type": "featured_collection",
           "settings": {
-            "collection": "baby-comfort-relief"
+            "collection": "oral-hygiene"
           }
         },
         "featured_collection_VXMdTj": {
@@ -80,13 +80,13 @@
         "featured_collection_DB64Wq": {
           "type": "featured_collection",
           "settings": {
-            "collection": "baby-skincare-essentials"
+            "collection": "massage-oils"
           }
         },
         "featured_collection_3BzXVb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cozy-comb"
+            "collection": "hair-care"
           }
         },
         "featured_collection_erJqdp": {
@@ -98,7 +98,7 @@
         "featured_collection_3c7CDw": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tummy-roll"
+            "collection": "miscellaneous"
           }
         }
       },

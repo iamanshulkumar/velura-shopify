@@ -3947,3 +3947,13 @@ em {
 .active, .dot:hover {
   background-color: #00644640;
 }
+
+.cart-drawer .cart__checkout-button {
+  background-color: #1d6148;
+  color: white;
+  transition: all 0.5s;
+}
+.cart-drawer .cart__checkout-button:hover {
+  background-color: #003723;
+  color: white;
+}
